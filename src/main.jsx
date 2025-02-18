@@ -21,19 +21,20 @@ import "./index.css";
 import App from "./App.jsx";
 
 const theme = createTheme({
-  palette: {
-    primary: {
-      main: "#C0CA33",
-    },
-    secondary: {
-      main: "#C2185B",
-    },
-  },
   colorSchemes: {
-    light: true,
-    dark: true,
-    cssVariables: {
-      colorSchemeSelector: "class",
+    dark: {
+      palette: {
+        primary: {
+          main: "#F57F17",
+        },
+        secondary: {
+          main: "#C2185B",
+        },
+        background: {
+          default: "#263238",
+          paper: "#37474F",
+        },
+      },
     },
   },
 });
@@ -43,8 +44,8 @@ createRoot(document.getElementById("root")).render(
     <Provider store={store}>
       <PersistGate loading={<LoadingCircular />} persistor={persistor}>
         <BrowserRouter>
-          <ThemeProvider theme={theme} defaultMode={"system"}>
-            <CssBaseline />
+          <ThemeProvider theme={theme} defaultMode={"system"} noSsr>
+            <CssBaseline /> {/* MUI Reset CSS */}
             <App />
           </ThemeProvider>
         </BrowserRouter>

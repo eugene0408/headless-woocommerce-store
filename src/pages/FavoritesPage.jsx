@@ -1,4 +1,3 @@
-import { PageHeader, PageWrapper, ProductCard } from "../components";
 import Grid from "@mui/material/Grid2";
 import { Typography, Button } from "@mui/material";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
@@ -8,6 +7,14 @@ import { selectAllProducts } from "../redux/selectors/productsSelectors";
 import { selectFavorites } from "../redux/selectors/favoritesSelectors";
 
 import { useNavigate } from "react-router-dom";
+
+import {
+  SectionHeader,
+  SectionWrapper,
+  ProductCard,
+  ProductsList,
+  PageWrapper,
+} from "../components";
 
 export const FavoritesPage = () => {
   const navigate = useNavigate();
@@ -19,39 +26,37 @@ export const FavoritesPage = () => {
 
   return (
     <PageWrapper>
-      <PageHeader title="Обрані товари" />
+      <SectionHeader title="Обрані товари" />
+      <ProductsList products={favoriteProducts} />
 
-      {favoritesList.length > 0 &&
-        favoriteProducts.map((product) => (
-          <Grid item key={`fav${product.id}`} size={{ xs: 4 }}>
-            <ProductCard product={product} />
-          </Grid>
-        ))}
+      {/* ------- Empty -------  */}
       {favoritesList.length === 0 && (
-        <Grid
-          item
-          size={{ xs: 4 }}
-          sx={{
-            height: "50vh",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <Typography variant="h6" align="center">
-            Ви не обрали жодного товару
-          </Typography>
-
-          <Button
-            variant="contained"
-            startIcon={<ChevronLeftIcon />}
-            onClick={() => navigate("/")}
-            sx={{ mt: 2 }}
+        <SectionWrapper>
+          <Grid
+            item
+            size={{ xs: 4 }}
+            sx={{
+              height: "50vh",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
           >
-            На головну
-          </Button>
-        </Grid>
+            <Typography variant="h6" align="center">
+              Ви не обрали жодного товару
+            </Typography>
+
+            <Button
+              variant="contained"
+              startIcon={<ChevronLeftIcon />}
+              onClick={() => navigate("/")}
+              sx={{ mt: 4 }}
+            >
+              На головну
+            </Button>
+          </Grid>
+        </SectionWrapper>
       )}
     </PageWrapper>
   );

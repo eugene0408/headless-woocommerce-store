@@ -4,8 +4,13 @@ import { Cart } from "./Cart";
 import { ProductDescription } from "./ProductDescription.jsx";
 import { ThemeSwitch } from "./ThemeSwitch.jsx";
 import { PageWrapper } from "./PageWrapper.jsx";
-import { PageHeader } from "./PageHeader.jsx";
+import { SectionWrapper } from "./SectionWrapper.jsx";
+import { SectionHeader } from "./SectionHeader.jsx";
 import { CategoryItem } from "./CategoryItem.jsx";
+import { CategoriesSideMenu } from "./CategoriesSideMenu.jsx";
+import { ScrollToTop } from "./ScrollToTop.jsx";
+import { CategoriesMenu } from "./CategoriesMenu.jsx";
+import { ProductsList } from "./ProductsList.jsx";
 
 export {
   ProductCard,
@@ -13,7 +18,12 @@ export {
   Cart,
   ProductDescription,
   ThemeSwitch,
-  PageWrapper,
-  PageHeader,
+  SectionWrapper,
+  SectionHeader,
   CategoryItem,
+  CategoriesSideMenu,
+  CategoriesMenu,
+  ScrollToTop,
+  ProductsList,
+  PageWrapper,
 };

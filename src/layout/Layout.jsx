@@ -13,7 +13,6 @@ import {
   useMediaQuery,
   AppBar,
   Toolbar,
-  Typography,
   Paper,
   BottomNavigation,
   BottomNavigationAction,
@@ -28,7 +27,8 @@ import WidgetsIcon from "@mui/icons-material/Widgets";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import SearchIcon from "@mui/icons-material/Search";
 // Components
-import { ThemeSwitch, Cart } from "../components";
+import Logo from "../assets/logo.svg?react";
+import { ThemeSwitch, Cart, CategoriesSideMenu } from "../components";
 
 export const Layout = () => {
   const dispatch = useDispatch();
@@ -38,23 +38,36 @@ export const Layout = () => {
   const location = useLocation();
   const cartItemsCount = useSelector(selectCartItemsCount);
   const favoritesItemsCount = useSelector(selectFavoritesItemsCount);
+  const [isCategoriesOpen, setIsCategoriesOpen] = useState(false);
+
+  const closeCategoriesList = () => {
+    setIsCategoriesOpen(false);
+  };
 
   return (
     <Container>
       {/* ------------- Topline ------------------*/}
       <AppBar>
         <Container>
-          <Toolbar position="static">
-            <Typography
-              variant="body1"
+          <Toolbar
+            position="static"
+            sx={{ display: "flex", justifyContent: "space-between" }}
+          >
+            {/* -----------Logo----------- */}
+            <IconButton
+              color="inherit"
+              onClick={() => navigate("/")}
               sx={{
-                flexGrow: 1,
-                textAlign: "left",
+                p: 0,
+                justifyContent: "flex-start",
+                borderRadius: 0,
               }}
             >
-              TEST Shop
-            </Typography>
-            {/* -----------Desctop navigation----------- */}
+              <Logo
+                style={{ height: "32px", fill: theme.palette.text.primary }}
+              />
+            </IconButton>
+            {/* -----------Desktop navigation----------- */}
             {!isMobile && (
               <IconButton color="inherit" onClick={() => dispatch(openCart())}>
                 <ShoppingCartIcon />
@@ -64,6 +77,11 @@ export const Layout = () => {
           </Toolbar>
         </Container>
       </AppBar>
+      {/* ------------Categories List ------------ */}
+      <CategoriesSideMenu
+        isOpen={isCategoriesOpen}
+        close={closeCategoriesList}
+      />
       {/* ------------Cart Component---------------- */}
       <Cart />
       {/* -------------Mobile Navigation------------- */}
@@ -100,9 +118,17 @@ export const Layout = () => {
             {/* =======Categories Icon Button======= */}
             <BottomNavigationAction
               label="Категорії"
-              icon={<WidgetsIcon />}
+              icon={
+                <WidgetsIcon
+                  color={
+                    location.pathname.startsWith("/category/")
+                      ? "primary"
+                      : "inherit"
+                  }
+                />
+              }
               sx={{ flex: 1 }}
-              onClick={() => navigate("/")}
+              onClick={() => setIsCategoriesOpen(true)}
             />
             {/* ---------Cart Icon Wrapper--------- */}
             <Box sx={{ flex: 1, position: "relative" }}>

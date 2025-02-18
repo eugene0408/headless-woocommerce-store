@@ -10,8 +10,8 @@ import { fetchProductsTrunk } from "./redux/slices/productsSlice";
 import { fetchCategoriesTrunk } from "./redux/slices/categoriesSlice";
 
 import { Layout } from "./layout/Layout";
-import { IndexPage, FavoritesPage, CategoryPage } from "./pages";
-import { ProductDescription } from "./components/index.js";
+import { IndexPage, FavoritesPage, CategoryPage, ProductPage } from "./pages";
+import { ScrollToTop } from "./components";
 
 function App() {
   const dispatch = useDispatch();
@@ -24,13 +24,13 @@ function App() {
 
   return (
     <>
+      {/* Scroll to top of the page on route change, router fix */}
+      <ScrollToTop />
+
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<IndexPage />} />
-          <Route
-            path={"products/:productId"}
-            element={<ProductDescription />}
-          />
+          <Route path={"products/:productId"} element={<ProductPage />} />
           <Route path="category/:categorySlug" element={<CategoryPage />} />
           <Route path="favorites" element={<FavoritesPage />} />
         </Route>

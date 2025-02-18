@@ -1,7 +1,7 @@
 import React from "react";
 import { Typography } from "@mui/material";
 
-export const PageHeader = ({ title }) => {
+export const SectionHeader = ({ title }) => {
   return (
     <Typography
       variant="h4"

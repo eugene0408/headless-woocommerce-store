@@ -1,13 +1,17 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { selectProductsByCategory } from "../redux/selectors/productsSelectors";
+import { selectCategories } from "../redux/selectors/categoriesSelectors";
 import { useParams } from "react-router-dom";
 
-import Grid from "@mui/material/Grid2";
-import { PageHeader, PageWrapper, ProductCard } from "../components";
+import { SectionHeader, ProductsList, PageWrapper } from "../components";
 
 export const CategoryPage = () => {
   const { categorySlug } = useParams();
+  const categories = useSelector(selectCategories);
+  const category = categories.find(
+    (category) => category.slug === categorySlug
+  );
 
   const productsByCategory = useSelector(
     selectProductsByCategory(categorySlug)
@@ -15,12 +19,8 @@ export const CategoryPage = () => {
 
   return (
     <PageWrapper>
-      <PageHeader title={""} />
-      {productsByCategory.map((product) => (
-        <Grid item key={product.id} size={{ xs: 4 }}>
-          <ProductCard product={product} />
-        </Grid>
-      ))}
+      <SectionHeader title={`${category.name}`} />
+      <ProductsList products={productsByCategory} />
     </PageWrapper>
   );
 };

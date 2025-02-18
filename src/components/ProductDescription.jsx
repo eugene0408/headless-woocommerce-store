@@ -1,13 +1,7 @@
-import { useEffect } from "react";
-import { useParams } from "react-router-dom";
 // Redux
 import { useSelector, useDispatch } from "react-redux";
-import {
-  selectProductById,
-  selectAllProducts,
-} from "../redux/selectors/productsSelectors.js";
+import { selectProductById } from "../redux/selectors/productsSelectors.js";
 import { selectCart } from "../redux/selectors/cartSelectors.js";
-import { fetchProductsTrunk } from "../redux/slices/productsSlice.js";
 import { addToCart } from "../redux/slices/cartSlice.js";
 import { openCart } from "../redux/slices/cartStatusSlice.js";
 import { selectFavorites } from "../redux/selectors/favoritesSelectors.js";
@@ -19,22 +13,12 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import DoneIcon from "@mui/icons-material/Done";
 import { Favorite, FavoriteBorder } from "@mui/icons-material";
 
-export const ProductDescription = () => {
+export const ProductDescription = ({ numericProductId }) => {
   const dispatch = useDispatch();
-  const { productId } = useParams();
-  const numericProductId = Number(productId);
-  const products = useSelector(selectAllProducts);
+  const product = useSelector(selectProductById(numericProductId));
   const cart = useSelector(selectCart);
   const favoritesList = useSelector(selectFavorites);
   const isFavorite = favoritesList.includes(numericProductId);
-
-  useEffect(() => {
-    if (products.length === 0) {
-      dispatch(fetchProductsTrunk());
-    }
-  }, [dispatch, products]);
-
-  const product = useSelector(selectProductById(numericProductId));
 
   return (
     <Container>
@@ -96,7 +80,7 @@ export const ProductDescription = () => {
                 {isFavorite ? <Favorite color="error" /> : <FavoriteBorder />}
               </IconButton>
               {/*================Cart buttons================*/}
-              {!cart[productId] && (
+              {!cart[numericProductId] && (
                 <Button
                   variant="contained"
                   size="large"
@@ -119,7 +103,7 @@ export const ProductDescription = () => {
                   Додати у кошик
                 </Button>
               )}
-              {cart[productId] && (
+              {cart[numericProductId] && (
                 <Button
                   variant="contained"
                   size="large"

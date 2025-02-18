@@ -6,6 +6,7 @@ import { addToCart } from "../redux/slices/cartSlice";
 import { selectFavorites } from "../redux/selectors/favoritesSelectors";
 import { toggleFavorites } from "../redux/slices/favoritesSllice";
 // MUI
+import { useTheme } from "@emotion/react";
 import {
   Box,
   Button,
@@ -23,6 +24,7 @@ export const ProductCard = ({ product }) => {
   const dispatch = useDispatch();
   const favoritesList = useSelector(selectFavorites);
   const isFavorite = favoritesList.includes(product.id);
+  const theme = useTheme();
 
   return (
     <Card
@@ -111,6 +113,7 @@ export const ProductCard = ({ product }) => {
               mr: 1,
               boxShadow: 2,
               borderRadius: 1,
+              backgroundColor: theme.palette.background.paper,
             }}
           >
             {isFavorite ? <Favorite color="error" /> : <FavoriteBorder />}
@@ -133,6 +136,7 @@ export const ProductCard = ({ product }) => {
             sx={{
               p: ".5em .8em .5em .5em",
               width: 120,
+              color: theme.palette.text.primary,
             }}
             startIcon={<ShoppingCart />}
           >
