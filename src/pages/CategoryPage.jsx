@@ -13,6 +13,8 @@ export const CategoryPage = () => {
     (category) => category.slug === categorySlug
   );
 
+  console.log(categories);
+
   const productsByCategory = useSelector(
     selectProductsByCategory(categorySlug)
   );

@@ -67,16 +67,43 @@ export const Layout = () => {
                 style={{ height: "32px", fill: theme.palette.text.primary }}
               />
             </IconButton>
-            {/* -----------Desktop navigation----------- */}
-            {!isMobile && (
-              <IconButton color="inherit" onClick={() => dispatch(openCart())}>
-                <ShoppingCartIcon />
-              </IconButton>
-            )}
             <ThemeSwitch />
           </Toolbar>
         </Container>
       </AppBar>
+      {/* -----------Desktop navigation----------- */}
+      {!isMobile && (
+        <Box
+          sx={{
+            position: "fixed",
+            bottom: 15,
+            right: 15,
+            height: 56,
+            width: 56,
+            borderRadius: "50%",
+            bgcolor: "secondary.main",
+            zIndex: 999,
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Badge badgeContent={cartItemsCount} color="error">
+            <IconButton
+              color="inherit"
+              onClick={() => dispatch(openCart())}
+              sx={{
+                position: "relative",
+
+                height: "100%",
+                width: "100%",
+              }}
+            >
+              <ShoppingCartIcon />
+            </IconButton>
+          </Badge>
+        </Box>
+      )}
       {/* ------------Categories List ------------ */}
       <CategoriesSideMenu
         isOpen={isCategoriesOpen}

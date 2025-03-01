@@ -1,0 +1,2914 @@
+[
+  {
+    "id": 176,
+    "name": "Іван Чай з смородиною",
+    "slug": "ivan-chaj-z-smorodynoyu",
+    "permalink": "http://localhost/test-shop-wp/product/ivan-chaj-z-smorodynoyu/",
+    "date_created": "2025-02-27T15:11:49",
+    "date_created_gmt": "2025-02-27T13:11:49",
+    "date_modified": "2025-02-27T15:11:50",
+    "date_modified_gmt": "2025-02-27T13:11:50",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Іван-чай з додаванням смородини для свіжості. Насичений вітамінами та корисними речовинами.</p>\n",
+    "short_description": "",
+    "sku": "0026",
+    "price": "340",
+    "regular_price": "340",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "200",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 16,
+        "name": "Чай",
+        "slug": "chaj"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 71,
+        "date_created": "2024-12-06T12:44:23",
+        "date_created_gmt": "2024-12-06T08:44:23",
+        "date_modified": "2024-12-06T12:44:23",
+        "date_modified_gmt": "2024-12-06T08:44:23",
+        "src": "/images/ivan-lavanda.jpg",
+        "name": "ivan-lavanda",
+        "alt": ""
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>340,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [173, 151, 62, 150, 96],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/176",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 174,
+    "name": "Іван Чай з трояндою",
+    "slug": "ivan-chaj-z-troyandoyu",
+    "permalink": "http://localhost/test-shop-wp/product/ivan-chaj-z-troyandoyu/",
+    "date_created": "2025-02-27T15:09:10",
+    "date_created_gmt": "2025-02-27T13:09:10",
+    "date_modified": "2025-02-27T15:09:10",
+    "date_modified_gmt": "2025-02-27T13:09:10",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Іван-чай з ароматом троянди для романтичного настрою. Має ніжний квітковий смак, підходить для особливих моментів.</p>\n",
+    "short_description": "",
+    "sku": "0025",
+    "price": "365",
+    "regular_price": "365",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "250",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 16,
+        "name": "Чай",
+        "slug": "chaj"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 73,
+        "date_created": "2024-12-06T12:44:26",
+        "date_created_gmt": "2024-12-06T08:44:26",
+        "date_modified": "2024-12-06T12:44:26",
+        "date_modified_gmt": "2024-12-06T08:44:26",
+        "src": "/images/ivan-rose.jpg",
+        "name": "ivan-rose",
+        "alt": ""
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>365,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [151, 96, 150, 62, 173],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/174",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 173,
+    "name": "Іван Чай з Мелісою",
+    "slug": "ivan-chaj-z-melisoyu",
+    "permalink": "http://localhost/test-shop-wp/product/ivan-chaj-z-melisoyu/",
+    "date_created": "2025-02-27T15:07:41",
+    "date_created_gmt": "2025-02-27T13:07:41",
+    "date_modified": "2025-02-27T15:07:41",
+    "date_modified_gmt": "2025-02-27T13:07:41",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Іван-чай з мелісою для релаксації та спокою. Має м'який лимонний аромат, допомагає зняти нервову напругу.</p>\n",
+    "short_description": "",
+    "sku": "0024",
+    "price": "320",
+    "regular_price": "320",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "250",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 16,
+        "name": "Чай",
+        "slug": "chaj"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 72,
+        "date_created": "2024-12-06T12:44:25",
+        "date_created_gmt": "2024-12-06T08:44:25",
+        "date_modified": "2024-12-06T12:44:25",
+        "date_modified_gmt": "2024-12-06T08:44:25",
+        "src": "/images/ivan-melisa.jpg",
+        "name": "ivan-melisa",
+        "alt": ""
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>320,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [150, 151, 62, 96, 174],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/173",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 171,
+    "name": "Календула",
+    "slug": "kalendula",
+    "permalink": "http://localhost/test-shop-wp/product/kalendula/",
+    "date_created": "2025-02-27T14:54:48",
+    "date_created_gmt": "2025-02-27T12:54:48",
+    "date_modified": "2025-02-27T14:54:49",
+    "date_modified_gmt": "2025-02-27T12:54:49",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Чай з календули з протизапальними властивостями. Підтримує здоров'я шкіри, сприяє загальному оздоровленню організму.</p>\n",
+    "short_description": "",
+    "sku": "0023",
+    "price": "320",
+    "regular_price": "320",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "320",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 47,
+        "name": "Трави",
+        "slug": "travu"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 94,
+        "date_created": "2024-12-06T12:44:56",
+        "date_created_gmt": "2024-12-06T08:44:56",
+        "date_modified": "2024-12-06T12:44:56",
+        "date_modified_gmt": "2024-12-06T08:44:56",
+        "src": "/images/calendula.jpg",
+        "name": "calendula",
+        "alt": ""
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>320,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [154, 169, 155, 115, 170],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/171",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 170,
+    "name": "Звіробій",
+    "slug": "zvirobij",
+    "permalink": "http://localhost/test-shop-wp/product/zvirobij/",
+    "date_created": "2025-02-27T14:53:34",
+    "date_created_gmt": "2025-02-27T12:53:34",
+    "date_modified": "2025-02-27T14:53:34",
+    "date_modified_gmt": "2025-02-27T12:53:34",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Чай зі звіробою для покращення настрою. Допомагає зняти стрес, підвищує настрій та сприяє загальному оздоровленню.</p>\n",
+    "short_description": "",
+    "sku": "0022",
+    "price": "320",
+    "regular_price": "320",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "300",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 47,
+        "name": "Трави",
+        "slug": "travu"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 92,
+        "date_created": "2024-12-06T12:44:53",
+        "date_created_gmt": "2024-12-06T08:44:53",
+        "date_modified": "2024-12-06T12:44:53",
+        "date_modified_gmt": "2024-12-06T08:44:53",
+        "src": "/images/zvirobiy.jpg",
+        "name": "zvirobiy",
+        "alt": ""
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>320,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [171, 154, 169, 115, 155],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/170",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 169,
+    "name": "Шавлія",
+    "slug": "shavliya",
+    "permalink": "http://localhost/test-shop-wp/product/shavliya/",
+    "date_created": "2025-02-27T14:52:04",
+    "date_created_gmt": "2025-02-27T12:52:04",
+    "date_modified": "2025-02-27T14:52:04",
+    "date_modified_gmt": "2025-02-27T12:52:04",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Трав'яний чай з шавлії з сильним, землистим смаком. Відомий своїми протизапальними та антиоксидантними властивостями.</p>\n",
+    "short_description": "",
+    "sku": "0021",
+    "price": "300",
+    "regular_price": "300",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "250",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 47,
+        "name": "Трави",
+        "slug": "travu"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 79,
+        "date_created": "2024-12-06T12:44:35",
+        "date_created_gmt": "2024-12-06T08:44:35",
+        "date_modified": "2024-12-06T12:44:35",
+        "date_modified_gmt": "2024-12-06T08:44:35",
+        "src": "/images/shavliya.jpg",
+        "name": "shavliya",
+        "alt": ""
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>300,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [154, 170, 155, 115, 171],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/169",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 167,
+    "name": "Настоянка з Шипшини",
+    "slug": "nastoyanka-z-shypshyny",
+    "permalink": "http://localhost/test-shop-wp/product/nastoyanka-z-shypshyny/",
+    "date_created": "2025-02-27T14:32:38",
+    "date_created_gmt": "2025-02-27T12:32:38",
+    "date_modified": "2025-02-27T14:32:38",
+    "date_modified_gmt": "2025-02-27T12:32:38",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Настоянка з шипшини, багата на вітамін С. Підтримує здоров'я шкіри та підвищує імунітет.</p>\n",
+    "short_description": "",
+    "sku": "0020",
+    "price": "350",
+    "regular_price": "350",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "450",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 45,
+        "name": "Настойки",
+        "slug": "nastoyku"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 83,
+        "date_created": "2024-12-06T12:44:40",
+        "date_created_gmt": "2024-12-06T08:44:40",
+        "date_modified": "2024-12-06T12:44:40",
+        "date_modified_gmt": "2024-12-06T08:44:40",
+        "src": "/images/tincture2.jpg",
+        "name": "tincture2",
+        "alt": ""
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>350,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [165, 156, 157, 116, 163],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/167",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 165,
+    "name": "Настоянка з Соснових Голок",
+    "slug": "nastoyanka-z-sosnovyh-golok",
+    "permalink": "http://localhost/test-shop-wp/product/nastoyanka-z-sosnovyh-golok/",
+    "date_created": "2025-02-27T14:30:48",
+    "date_created_gmt": "2025-02-27T12:30:48",
+    "date_modified": "2025-02-27T14:30:48",
+    "date_modified_gmt": "2025-02-27T12:30:48",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Настоянка з соснових голок з освіжаючим, лісовим смаком. Відома своїми корисними властивостями для дихальної системи та підтримки імунітету.</p>\n",
+    "short_description": "",
+    "sku": "0019",
+    "price": "420",
+    "regular_price": "420",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "500",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 45,
+        "name": "Настойки",
+        "slug": "nastoyku"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 91,
+        "date_created": "2024-12-06T12:44:52",
+        "date_created_gmt": "2024-12-06T08:44:52",
+        "date_modified": "2024-12-06T12:44:52",
+        "date_modified_gmt": "2024-12-06T08:44:52",
+        "src": "/images/tincturepine.jpg",
+        "name": "tincturepine",
+        "alt": ""
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>420,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [157, 116, 163, 167, 156],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/165",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 163,
+    "name": "Настоянка з Глоду",
+    "slug": "nastoyanka-z-glodu",
+    "permalink": "http://localhost/test-shop-wp/product/nastoyanka-z-glodu/",
+    "date_created": "2025-02-27T14:27:08",
+    "date_created_gmt": "2025-02-27T12:27:08",
+    "date_modified": "2025-02-27T14:33:56",
+    "date_modified_gmt": "2025-02-27T12:33:56",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Настоянка з глоду для підтримки серця. Виготовлена з дикого глоду, зібраного в Карпатах.</p>\n",
+    "short_description": "",
+    "sku": "0018",
+    "price": "385",
+    "regular_price": "385",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "500",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 45,
+        "name": "Настойки",
+        "slug": "nastoyku"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 84,
+        "date_created": "2024-12-06T12:44:42",
+        "date_created_gmt": "2024-12-06T08:44:42",
+        "date_modified": "2024-12-06T12:44:42",
+        "date_modified_gmt": "2024-12-06T08:44:42",
+        "src": "/images/tincture3.jpg",
+        "name": "tincture3",
+        "alt": ""
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>385,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [165, 116, 167, 156, 157],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/163",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 161,
+    "name": "Мед з ромашкою",
+    "slug": "med-z-romashkoyu",
+    "permalink": "http://localhost/test-shop-wp/product/med-z-romashkoyu/",
+    "date_created": "2025-02-27T13:56:50",
+    "date_created_gmt": "2025-02-27T11:56:50",
+    "date_modified": "2025-02-27T13:57:50",
+    "date_modified_gmt": "2025-02-27T11:57:50",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Мед з додаванням ромашки для заспокійливого ефекту. Підходить для вечірнього чаювання та зняття стресу.</p>\n",
+    "short_description": "",
+    "sku": "0017",
+    "price": "295",
+    "regular_price": "295",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "250",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 17,
+        "name": "Мед",
+        "slug": "med"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 65,
+        "date_created": "2024-12-06T12:44:13",
+        "date_created_gmt": "2024-12-06T08:44:13",
+        "date_modified": "2024-12-06T12:44:13",
+        "date_modified_gmt": "2024-12-06T08:44:13",
+        "src": "/images/honey2.jpg",
+        "name": "honey2",
+        "alt": ""
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>295,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [97, 152, 160, 103, 98],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/161",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 160,
+    "name": "Мед з корицею",
+    "slug": "med-z-koryczeyu",
+    "permalink": "http://localhost/test-shop-wp/product/med-z-koryczeyu/",
+    "date_created": "2025-02-27T13:54:03",
+    "date_created_gmt": "2025-02-27T11:54:03",
+    "date_modified": "2025-02-27T13:54:03",
+    "date_modified_gmt": "2025-02-27T11:54:03",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Мед з додаванням кориці. Додає теплий, пряний смак до чаю та десертів, ідеальний для осені.</p>\n",
+    "short_description": "",
+    "sku": "0016",
+    "price": "258",
+    "regular_price": "258",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "250",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 17,
+        "name": "Мед",
+        "slug": "med"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 67,
+        "date_created": "2024-12-06T12:44:17",
+        "date_created_gmt": "2024-12-06T08:44:17",
+        "date_modified": "2024-12-06T12:44:17",
+        "date_modified_gmt": "2024-12-06T08:44:17",
+        "src": "/images/honey4.jpg",
+        "name": "honey4",
+        "alt": ""
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>258,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [97, 98, 152, 153, 161],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/160",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 157,
+    "name": "Настоянка з Карпатських Трав",
+    "slug": "nastoyanka-z-zhenshenyu",
+    "permalink": "http://localhost/test-shop-wp/product/nastoyanka-z-zhenshenyu/",
+    "date_created": "2025-02-07T15:46:51",
+    "date_created_gmt": "2025-02-07T13:46:51",
+    "date_modified": "2025-02-27T14:25:53",
+    "date_modified_gmt": "2025-02-27T12:25:53",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Суміш карпатських трав у формі настоянки. Сприяє релаксації та загальному оздоровленню організму.</p>\n",
+    "short_description": "",
+    "sku": "0015",
+    "price": "450",
+    "regular_price": "450",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "600",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 45,
+        "name": "Настойки",
+        "slug": "nastoyku"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 91,
+        "date_created": "2024-12-06T12:44:52",
+        "date_created_gmt": "2024-12-06T08:44:52",
+        "date_modified": "2024-12-06T12:44:52",
+        "date_modified_gmt": "2024-12-06T08:44:52",
+        "src": "/images/tincturepine.jpg",
+        "name": "tincturepine",
+        "alt": ""
+      }
+    ],
+    "attributes": [
+      {
+        "id": 0,
+        "name": "вага",
+        "slug": "вага",
+        "position": 0,
+        "visible": true,
+        "variation": false,
+        "options": ["600"]
+      }
+    ],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>450,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [167, 116, 163, 156, 165],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/157",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 156,
+    "name": "Настоянка з Малини",
+    "slug": "nastoyanka-z-malyny",
+    "permalink": "http://localhost/test-shop-wp/product/nastoyanka-z-malyny/",
+    "date_created": "2025-02-07T15:46:51",
+    "date_created_gmt": "2025-02-07T13:46:51",
+    "date_modified": "2025-02-27T14:24:05",
+    "date_modified_gmt": "2025-02-27T12:24:05",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Настоянка з натуральної малини з солодким, фруктовим смаком. Підтримує імунітет та додає яскравий смак.</p>\n",
+    "short_description": "",
+    "sku": "0014",
+    "price": "420",
+    "regular_price": "420",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "550",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 45,
+        "name": "Настойки",
+        "slug": "nastoyku"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 87,
+        "date_created": "2024-12-06T12:44:46",
+        "date_created_gmt": "2024-12-06T08:44:46",
+        "date_modified": "2024-12-06T12:44:46",
+        "date_modified_gmt": "2024-12-06T08:44:46",
+        "src": "/images/tincture6.jpg",
+        "name": "tincture6",
+        "alt": ""
+      }
+    ],
+    "attributes": [
+      {
+        "id": 0,
+        "name": "вага",
+        "slug": "вага",
+        "position": 0,
+        "visible": true,
+        "variation": false,
+        "options": ["550"]
+      }
+    ],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>420,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [116, 163, 167, 165, 157],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/156",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 155,
+    "name": "Чебрець",
+    "slug": "chebrecz",
+    "permalink": "http://localhost/test-shop-wp/product/chebrecz/",
+    "date_created": "2025-02-07T15:46:51",
+    "date_created_gmt": "2025-02-07T13:46:51",
+    "date_modified": "2025-02-27T14:47:55",
+    "date_modified_gmt": "2025-02-27T12:47:55",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Трав'яний чай з чебрецю з пікантним смаком. Підтримує здоров'я дихальної системи та імунної системи.</p>\n",
+    "short_description": "",
+    "sku": "0013",
+    "price": "290",
+    "regular_price": "290",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "220",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 47,
+        "name": "Трави",
+        "slug": "travu"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 95,
+        "date_created": "2024-12-06T12:44:58",
+        "date_created_gmt": "2024-12-06T08:44:58",
+        "date_modified": "2024-12-06T12:44:58",
+        "date_modified_gmt": "2024-12-06T08:44:58",
+        "src": "/images/cebrec.jpeg",
+        "name": "cebrec",
+        "alt": ""
+      }
+    ],
+    "attributes": [
+      {
+        "id": 0,
+        "name": "вага",
+        "slug": "вага",
+        "position": 0,
+        "visible": true,
+        "variation": false,
+        "options": ["220"]
+      }
+    ],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>290,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [115, 154, 171, 170, 169],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/155",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 154,
+    "name": "Листя М'яти",
+    "slug": "lystya-myaty",
+    "permalink": "http://localhost/test-shop-wp/product/lystya-myaty/",
+    "date_created": "2025-02-07T15:46:51",
+    "date_created_gmt": "2025-02-07T13:46:51",
+    "date_modified": "2025-02-27T14:57:53",
+    "date_modified_gmt": "2025-02-27T12:57:53",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Листя м'яти для освіжаючого трав'яного чаю. Допомагає травленню та має заспокійливий ефект.</p>\n",
+    "short_description": "",
+    "sku": "0012",
+    "price": "280",
+    "regular_price": "280",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "200",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 47,
+        "name": "Трави",
+        "slug": "travu"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 76,
+        "date_created": "2024-12-06T12:44:30",
+        "date_created_gmt": "2024-12-06T08:44:30",
+        "date_modified": "2024-12-06T12:44:30",
+        "date_modified_gmt": "2024-12-06T08:44:30",
+        "src": "/images/melisa.jpeg",
+        "name": "melisa",
+        "alt": ""
+      }
+    ],
+    "attributes": [
+      {
+        "id": 0,
+        "name": "вага",
+        "slug": "вага",
+        "position": 0,
+        "visible": true,
+        "variation": false,
+        "options": ["200"]
+      }
+    ],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>280,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [155, 169, 170, 115, 171],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/154",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 153,
+    "name": "Мед з імбиром",
+    "slug": "med-z-apelsynom",
+    "permalink": "http://localhost/test-shop-wp/product/med-z-apelsynom/",
+    "date_created": "2025-02-07T15:46:51",
+    "date_created_gmt": "2025-02-07T13:46:51",
+    "date_modified": "2025-02-27T13:50:07",
+    "date_modified_gmt": "2025-02-27T11:50:07",
+    "type": "simple",
+    "status": "publish",
+    "featured": true,
+    "catalog_visibility": "visible",
+    "description": "<p>Мед з імбиром для гострого смаку. Підвищує імунітет та додає унікальний смак до чаю та десертів.</p>\n",
+    "short_description": "",
+    "sku": "0011",
+    "price": "475",
+    "regular_price": "475",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "450",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 17,
+        "name": "Мед",
+        "slug": "med"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 66,
+        "date_created": "2024-12-06T12:44:15",
+        "date_created_gmt": "2024-12-06T08:44:15",
+        "date_modified": "2024-12-06T12:44:15",
+        "date_modified_gmt": "2024-12-06T08:44:15",
+        "src": "/images/honey3.jpg",
+        "name": "honey3",
+        "alt": ""
+      }
+    ],
+    "attributes": [
+      {
+        "id": 0,
+        "name": "вага",
+        "slug": "вага",
+        "position": 0,
+        "visible": true,
+        "variation": false,
+        "options": ["450"]
+      }
+    ],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>475,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [98, 97, 160, 161, 152],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/153",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 152,
+    "name": "Мед з лимоном",
+    "slug": "med-z-voloskymy-gorihamy",
+    "permalink": "http://localhost/test-shop-wp/product/med-z-voloskymy-gorihamy/",
+    "date_created": "2025-02-07T15:46:50",
+    "date_created_gmt": "2025-02-07T13:46:50",
+    "date_modified": "2025-02-27T13:48:10",
+    "date_modified_gmt": "2025-02-27T11:48:10",
+    "type": "simple",
+    "status": "publish",
+    "featured": true,
+    "catalog_visibility": "visible",
+    "description": "<p>Мед з екстрактом лимона для свіжого смаку. Ідеально підходить для чаю або як додаток до десертів.</p>\n",
+    "short_description": "",
+    "sku": "0010",
+    "price": "500",
+    "regular_price": "500",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "500",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 17,
+        "name": "Мед",
+        "slug": "med"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 68,
+        "date_created": "2024-12-06T12:44:19",
+        "date_created_gmt": "2024-12-06T08:44:19",
+        "date_modified": "2024-12-06T12:44:19",
+        "date_modified_gmt": "2024-12-06T08:44:19",
+        "src": "/images/honey5.jpg",
+        "name": "honey5",
+        "alt": ""
+      }
+    ],
+    "attributes": [
+      {
+        "id": 0,
+        "name": "вага",
+        "slug": "вага",
+        "position": 0,
+        "visible": true,
+        "variation": false,
+        "options": ["500"]
+      }
+    ],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>500,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [98, 103, 97, 161, 160],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/152",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 151,
+    "name": "Іван Чай з лавандою",
+    "slug": "ivan-chaj-z-lavandoyu",
+    "permalink": "http://localhost/test-shop-wp/product/ivan-chaj-z-lavandoyu/",
+    "date_created": "2025-02-07T15:46:50",
+    "date_created_gmt": "2025-02-07T13:46:50",
+    "date_modified": "2025-02-27T15:06:14",
+    "date_modified_gmt": "2025-02-27T13:06:14",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Іван-чай з додаванням лаванди для спокійного настрою. Допомагає зняти стрес та напругу, сприяє здоровому сну.</p>\n",
+    "short_description": "",
+    "sku": "0009",
+    "price": "270",
+    "regular_price": "270",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "180",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 16,
+        "name": "Чай",
+        "slug": "chaj"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 71,
+        "date_created": "2024-12-06T12:44:23",
+        "date_created_gmt": "2024-12-06T08:44:23",
+        "date_modified": "2024-12-06T12:44:23",
+        "date_modified_gmt": "2024-12-06T08:44:23",
+        "src": "/images/ivan-lavanda.jpg",
+        "name": "ivan-lavanda",
+        "alt": ""
+      }
+    ],
+    "attributes": [
+      {
+        "id": 0,
+        "name": "вага",
+        "slug": "вага",
+        "position": 0,
+        "visible": true,
+        "variation": false,
+        "options": ["250"]
+      }
+    ],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>270,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [150, 173, 62, 96, 174],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/151",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 150,
+    "name": "Іван Чай з чебрецем",
+    "slug": "ivan-chaj-z-chebreczem",
+    "permalink": "http://localhost/test-shop-wp/product/ivan-chaj-z-chebreczem/",
+    "date_created": "2025-02-07T15:46:49",
+    "date_created_gmt": "2025-02-07T13:46:49",
+    "date_modified": "2025-02-27T15:04:48",
+    "date_modified_gmt": "2025-02-27T13:04:48",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Іван-чай з додаванням чебрецю для бадьорості. Має виражений трав'яний смак та корисні властивості.</p>\n",
+    "short_description": "",
+    "sku": "0008",
+    "price": "260",
+    "regular_price": "260",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "200",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 16,
+        "name": "Чай",
+        "slug": "chaj"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 70,
+        "date_created": "2024-12-06T12:44:22",
+        "date_created_gmt": "2024-12-06T08:44:22",
+        "date_modified": "2024-12-06T12:44:22",
+        "date_modified_gmt": "2024-12-06T08:44:22",
+        "src": "/images/ivan-chebrets.jpg",
+        "name": "ivan-chebrets",
+        "alt": ""
+      }
+    ],
+    "attributes": [
+      {
+        "id": 0,
+        "name": "вага",
+        "slug": "вага",
+        "position": 0,
+        "visible": true,
+        "variation": false,
+        "options": ["250"]
+      }
+    ],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>260,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [173, 62, 96, 174, 151],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/150",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 116,
+    "name": "Настоянка з Чорниці",
+    "slug": "nastoyanka-z-chornyczi",
+    "permalink": "http://localhost/test-shop-wp/product/nastoyanka-z-chornyczi/",
+    "date_created": "2025-02-07T15:20:45",
+    "date_created_gmt": "2025-02-07T13:20:45",
+    "date_modified": "2025-02-07T15:20:45",
+    "date_modified_gmt": "2025-02-07T13:20:45",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Настоянка з чорниці, зібраної в Карпатах. Багата на антиоксиданти, підтримує зір та загальне здоров'я.</p>\n",
+    "short_description": "",
+    "sku": "0007",
+    "price": "400",
+    "regular_price": "400",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "500",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 45,
+        "name": "Настойки",
+        "slug": "nastoyku"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 86,
+        "date_created": "2024-12-06T12:44:45",
+        "date_created_gmt": "2024-12-06T08:44:45",
+        "date_modified": "2024-12-06T12:44:45",
+        "date_modified_gmt": "2024-12-06T08:44:45",
+        "src": "/images/tincture5.jpg",
+        "name": "tincture5",
+        "alt": ""
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>400,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [167, 163, 156, 165, 157],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/116",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 115,
+    "name": "Листя Липи",
+    "slug": "lystya-lypy",
+    "permalink": "http://localhost/test-shop-wp/product/lystya-lypy/",
+    "date_created": "2025-02-07T13:55:43",
+    "date_created_gmt": "2025-02-07T11:55:43",
+    "date_modified": "2025-02-07T13:56:38",
+    "date_modified_gmt": "2025-02-07T11:56:38",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Липовий чай з ніжним ароматом та заспокійливим ефектом. Чудово підходить для релаксації після важкого дня.</p>\n",
+    "short_description": "",
+    "sku": "0006",
+    "price": "300",
+    "regular_price": "300",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "250",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 47,
+        "name": "Трави",
+        "slug": "travu"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 75,
+        "date_created": "2024-12-06T12:44:29",
+        "date_created_gmt": "2024-12-06T08:44:29",
+        "date_modified": "2024-12-06T12:44:29",
+        "date_modified_gmt": "2024-12-06T08:44:29",
+        "src": "/images/lustya-lupy.jpg",
+        "name": "lustya-lupy",
+        "alt": ""
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>300,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [169, 155, 154, 171, 170],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/115",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 103,
+    "name": "Мед з бергамотом",
+    "slug": "med-z-bergamotom",
+    "permalink": "http://localhost/test-shop-wp/product/med-z-bergamotom/",
+    "date_created": "2024-12-07T17:12:21",
+    "date_created_gmt": "2024-12-07T15:12:21",
+    "date_modified": "2025-02-07T11:08:33",
+    "date_modified_gmt": "2025-02-07T09:08:33",
+    "type": "simple",
+    "status": "publish",
+    "featured": true,
+    "catalog_visibility": "visible",
+    "description": "<div>\n<div>Мед з екстрактом бергамоту для витонченого смаку. Ідеально підходить для гурманів та любителів чаю з оригінальним ароматом.</div>\n</div>\n",
+    "short_description": "",
+    "sku": "0005",
+    "price": "325",
+    "regular_price": "325",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "250",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 17,
+        "name": "Мед",
+        "slug": "med"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 67,
+        "date_created": "2024-12-06T12:44:17",
+        "date_created_gmt": "2024-12-06T08:44:17",
+        "date_modified": "2024-12-06T12:44:17",
+        "date_modified_gmt": "2024-12-06T08:44:17",
+        "src": "/images/honey4.jpg",
+        "name": "honey4",
+        "alt": ""
+      }
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "вага",
+        "slug": "pa_weight",
+        "position": 0,
+        "visible": true,
+        "variation": false,
+        "options": ["250"]
+      }
+    ],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>325,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [98, 161, 97, 153, 152],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/103",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 97,
+    "name": "Мед з смородиною",
+    "slug": "med-z-smorodynoyu",
+    "permalink": "http://localhost/test-shop-wp/product/med-z-smorodynoyu/",
+    "date_created": "2024-12-06T10:55:00",
+    "date_created_gmt": "2024-12-06T08:55:00",
+    "date_modified": "2025-02-07T11:08:24",
+    "date_modified_gmt": "2025-02-07T09:08:24",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<div>\n<div>Мед з натуральною смородиною для підсилення смаку. Чудово поєднується з чаєм, йогуртом або тостами</div>\n</div>\n",
+    "short_description": "",
+    "sku": "0003",
+    "price": "300",
+    "regular_price": "300",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": true,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "300",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 17,
+        "name": "Мед",
+        "slug": "med"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 68,
+        "date_created": "2024-12-06T12:44:19",
+        "date_created_gmt": "2024-12-06T08:44:19",
+        "date_modified": "2024-12-06T12:44:19",
+        "date_modified_gmt": "2024-12-06T08:44:19",
+        "src": "/images/honey5.jpg",
+        "name": "honey5",
+        "alt": ""
+      }
+    ],
+    "attributes": [
+      {
+        "id": 0,
+        "name": "вага",
+        "slug": "вага",
+        "position": 0,
+        "visible": true,
+        "variation": false,
+        "options": ["400"]
+      }
+    ],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>300,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [103, 161, 160, 153, 98],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/97",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 98,
+    "name": "Мед з малиною",
+    "slug": "med-z-malynoyu",
+    "permalink": "http://localhost/test-shop-wp/product/med-z-malynoyu/",
+    "date_created": "2024-12-06T10:54:21",
+    "date_created_gmt": "2024-12-06T08:54:21",
+    "date_modified": "2025-02-07T11:08:47",
+    "date_modified_gmt": "2025-02-07T09:08:47",
+    "type": "simple",
+    "status": "publish",
+    "featured": true,
+    "catalog_visibility": "visible",
+    "description": "<div>\n<div>Солодкий мед з додаванням малини для підсилення смаку. Насичений вітамінами, ідеально підходить для десертів та напоїв.</div>\n</div>\n",
+    "short_description": "",
+    "sku": "0004",
+    "price": "450",
+    "regular_price": "450",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "400",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 17,
+        "name": "Мед",
+        "slug": "med"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 69,
+        "date_created": "2024-12-06T12:44:20",
+        "date_created_gmt": "2024-12-06T08:44:20",
+        "date_modified": "2024-12-06T12:44:20",
+        "date_modified_gmt": "2024-12-06T08:44:20",
+        "src": "/images/honey6.jpg",
+        "name": "honey6",
+        "alt": ""
+      }
+    ],
+    "attributes": [
+      {
+        "id": 0,
+        "name": "вага",
+        "slug": "вага",
+        "position": 0,
+        "visible": true,
+        "variation": false,
+        "options": ["450"]
+      }
+    ],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>450,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [161, 152, 97, 160, 153],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/98",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 96,
+    "name": "Іван Чай з малиною",
+    "slug": "ivan-chaj-z-malynoyu",
+    "permalink": "http://localhost/test-shop-wp/product/ivan-chaj-z-malynoyu/",
+    "date_created": "2024-12-06T10:48:45",
+    "date_created_gmt": "2024-12-06T08:48:45",
+    "date_modified": "2024-12-20T15:02:31",
+    "date_modified_gmt": "2024-12-20T13:02:31",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<div>\n<div>Іван-чай з ароматом малини для солодкого смаку. Ідеально підходить для поціновувачів фруктових чаїв.</div>\n</div>\n",
+    "short_description": "",
+    "sku": "0002",
+    "price": "275",
+    "regular_price": "275",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "150",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 16,
+        "name": "Чай",
+        "slug": "chaj"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 73,
+        "date_created": "2024-12-06T12:44:26",
+        "date_created_gmt": "2024-12-06T08:44:26",
+        "date_modified": "2024-12-06T12:44:26",
+        "date_modified_gmt": "2024-12-06T08:44:26",
+        "src": "/images/ivan-rose.jpg",
+        "name": "ivan-rose",
+        "alt": ""
+      }
+    ],
+    "attributes": [
+      {
+        "id": 0,
+        "name": "вага",
+        "slug": "вага",
+        "position": 0,
+        "visible": true,
+        "variation": false,
+        "options": ["250"]
+      }
+    ],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>275,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [151, 173, 62, 174, 150],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/96",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 62,
+    "name": "Іван Чай",
+    "slug": "ivan-chaj",
+    "permalink": "http://localhost/test-shop-wp/product/ivan-chaj/",
+    "date_created": "2024-12-06T10:45:36",
+    "date_created_gmt": "2024-12-06T08:45:36",
+    "date_modified": "2024-12-25T16:39:28",
+    "date_modified_gmt": "2024-12-25T14:39:28",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<div>\n<div>Іван-чай з мелісою для релаксації та спокою. Має м'який лимонний аромат, допомагає зняти нервову напругу</div>\n</div>\n",
+    "short_description": "",
+    "sku": "0001",
+    "price": "250",
+    "regular_price": "250",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "300",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 16,
+        "name": "Чай",
+        "slug": "chaj"
+      }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 72,
+        "date_created": "2024-12-06T12:44:25",
+        "date_created_gmt": "2024-12-06T08:44:25",
+        "date_modified": "2024-12-06T12:44:25",
+        "date_modified_gmt": "2024-12-06T08:44:25",
+        "src": "/images/ivan-melisa.jpg",
+        "name": "ivan-melisa",
+        "alt": ""
+      }
+    ],
+    "attributes": [
+      {
+        "id": 0,
+        "name": "вага",
+        "slug": "вага",
+        "position": 0,
+        "visible": true,
+        "variation": false,
+        "options": ["250"]
+      }
+    ],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>250,00&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#8372;</span></bdi></span>",
+    "related_ids": [150, 174, 173, 96, 151],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/62",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  }
+]

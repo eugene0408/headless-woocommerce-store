@@ -12,7 +12,7 @@ import {
 
 export const IndexPage = () => {
   const products = useSelector(selectAllProducts);
-
+  // console.log(products);
   return (
     <PageWrapper>
       <CategoriesMenu />

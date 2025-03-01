@@ -1,0 +1,142 @@
+[
+  {
+    "id": 17,
+    "name": "Мед",
+    "slug": "med",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": {
+      "id": 64,
+      "date_created": "2024-12-06T10:44:12",
+      "date_created_gmt": "2024-12-06T08:44:12",
+      "date_modified": "2024-12-06T10:44:12",
+      "date_modified_gmt": "2024-12-06T08:44:12",
+      "src": "/images/honey.png",
+      "name": "honey",
+      "alt": ""
+    },
+    "menu_order": 0,
+    "count": 7,
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/categories/17",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "name": "Настойки",
+    "slug": "nastoyku",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": {
+      "id": 81,
+      "date_created": "2024-12-06T10:44:38",
+      "date_created_gmt": "2024-12-06T08:44:38",
+      "date_modified": "2024-12-06T10:44:38",
+      "date_modified_gmt": "2024-12-06T08:44:38",
+      "src": "/images/tincture.jpg",
+      "name": "tincture",
+      "alt": ""
+    },
+    "menu_order": 0,
+    "count": 6,
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/categories/45",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "name": "Трави",
+    "slug": "travu",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": {
+      "id": 79,
+      "date_created": "2024-12-06T10:44:35",
+      "date_created_gmt": "2024-12-06T08:44:35",
+      "date_modified": "2024-12-06T10:44:35",
+      "date_modified_gmt": "2024-12-06T08:44:35",
+      "src": "/images/shavliya.jpg",
+      "name": "shavliya",
+      "alt": ""
+    },
+    "menu_order": 0,
+    "count": 6,
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/categories/47",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "name": "Чай",
+    "slug": "chaj",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": {
+      "id": 73,
+      "date_created": "2024-12-06T10:44:26",
+      "date_created_gmt": "2024-12-06T08:44:26",
+      "date_modified": "2024-12-06T10:44:26",
+      "date_modified_gmt": "2024-12-06T08:44:26",
+      "src": "/images/ivan-rose.jpg",
+      "name": "ivan-rose",
+      "alt": ""
+    },
+    "menu_order": 0,
+    "count": 7,
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/categories/16",
+          "targetHints": {
+            "allow": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/test-shop-wp/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  }
+]

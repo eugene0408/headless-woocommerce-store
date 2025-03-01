@@ -3,7 +3,7 @@ import React from "react";
 import { Container } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 
-export const SectionWrapper = ({ children }) => {
+export const SectionWrapper = ({ children, justify = "flex-start" }) => {
   return (
     <Container>
       <Grid
@@ -11,6 +11,8 @@ export const SectionWrapper = ({ children }) => {
         rowSpacing={1}
         columnSpacing={1}
         columns={{ xs: 4, sm: 8, md: 12 }}
+        justifyContent={justify}
+        alignItems="center"
       >
         {children}
       </Grid>

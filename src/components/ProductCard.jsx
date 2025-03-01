@@ -26,16 +26,31 @@ export const ProductCard = ({ product }) => {
   const isFavorite = favoritesList.includes(product.id);
   const theme = useTheme();
 
+  const truncateHtmlText = (html, maxLength = 100) => {
+    if (!html) return "";
+    // remove html tags
+    const textOnly = html.replace(/<[^>]*>?/gm, "").trim();
+    // return if text is shorter than maxLength
+    if (textOnly.length <= maxLength) return textOnly;
+    // truncate to the nearest word
+    const truncated = textOnly.substring(0, maxLength).trim();
+    return truncated.substring(0, truncated.lastIndexOf(" ")) + "...";
+  };
+
   return (
     <Card
       sx={{
         maxWidth: 340,
+        height: 420,
+        // maxHeight: 460,
         my: 2,
         position: "relative",
         border: "none",
         boxShadow: "none",
         backgroundColor: "transparent",
         backgroundImage: "none",
+        display: "flex",
+        flexDirection: "column",
       }}
     >
       <CardMedia
@@ -47,20 +62,28 @@ export const ProductCard = ({ product }) => {
           borderRadius: 3,
         }}
       />
-      <CardContent>
+      <CardContent
+        sx={{
+          flexGrow: 1,
+          display: "flex",
+          flexDirection: "column",
+          mb: 0,
+          pb: 0,
+        }}
+      >
         {/* Title & Weight*/}
         <Box
           sx={{
             display: "flex",
             justifyContent: "space-between",
-            alignItems: "center",
+            alignItems: "flex-start",
           }}
         >
           <Typography
             gutterBottom
             variant="h6"
             component="div"
-            sx={{ textTransform: "uppercase" }}
+            sx={{ textTransform: "uppercase", lineHeight: 1.1, height: "2em" }}
           >
             {product.name}
           </Typography>
@@ -73,20 +96,21 @@ export const ProductCard = ({ product }) => {
         <Typography
           variant="body2"
           component="div"
-          dangerouslySetInnerHTML={{ __html: product.description }}
           sx={{
             height: "3em",
             fontSize: 14,
             lineHeight: 1.1,
           }}
-        />
+        >
+          {/* trimmed description */}
+          {truncateHtmlText(product.description, 100)}
+        </Typography>
       </CardContent>
       {/* ------------------ Price & Buttons --------------------*/}
       <CardActions>
         <Box
           sx={{
             display: "flex",
-            mt: 2,
             width: "100%",
           }}
         >

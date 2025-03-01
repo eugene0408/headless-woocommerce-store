@@ -18,7 +18,7 @@ export const CategoriesMenu = () => {
   const categoriesLoading = useSelector(selectCategoriesLoading);
 
   return (
-    <SectionWrapper>
+    <SectionWrapper justify="center">
       <SectionHeader title="Категорії" />
       {categoriesLoading && <LoadingCircular />}
       {categories.length > 0 &&
