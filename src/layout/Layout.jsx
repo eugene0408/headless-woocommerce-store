@@ -18,6 +18,7 @@ import {
   BottomNavigationAction,
   Box,
   Badge,
+  Button,
 } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 // MUI Icons
@@ -67,11 +68,62 @@ export const Layout = () => {
                 style={{ height: "32px", fill: theme.palette.text.primary }}
               />
             </IconButton>
+            {!isMobile && (
+              <Box>
+                <Button
+                  startIcon={
+                    <HomeIcon
+                      color={location.pathname === "/" ? "primary" : "inherit"}
+                    />
+                  }
+                  onClick={() => navigate("/")}
+                  size="large"
+                  variant="text"
+                  color="inherit"
+                >
+                  Головна
+                </Button>
+                <Button
+                  startIcon={
+                    <WidgetsIcon
+                      color={
+                        location.pathname.startsWith("/category/")
+                          ? "primary"
+                          : "inherit"
+                      }
+                    />
+                  }
+                  onClick={() => setIsCategoriesOpen(true)}
+                  size="large"
+                  variant="text"
+                  color="inherit"
+                >
+                  Категорії
+                </Button>
+                <Button
+                  startIcon={
+                    <FavoriteIcon
+                      color={
+                        location.pathname === "/favorites"
+                          ? "primary"
+                          : "inherit"
+                      }
+                    />
+                  }
+                  onClick={() => navigate("/favorites")}
+                  size="large"
+                  variant="text"
+                  color="inherit"
+                >
+                  Обране
+                </Button>
+              </Box>
+            )}
             <ThemeSwitch />
           </Toolbar>
         </Container>
       </AppBar>
-      {/* -----------Desktop navigation----------- */}
+      {/* -----------Desktop floating cart----------- */}
       {!isMobile && (
         <Box
           sx={{
@@ -94,7 +146,6 @@ export const Layout = () => {
               onClick={() => dispatch(openCart())}
               sx={{
                 position: "relative",
-
                 height: "100%",
                 width: "100%",
               }}
