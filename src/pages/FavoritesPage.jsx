@@ -11,9 +11,9 @@ import { useNavigate } from "react-router-dom";
 import {
   SectionHeader,
   SectionWrapper,
-  ProductCard,
   ProductsList,
   PageWrapper,
+  CategoriesMenu,
 } from "../components";
 
 export const FavoritesPage = () => {
@@ -34,7 +34,7 @@ export const FavoritesPage = () => {
         <SectionWrapper>
           <Grid
             item
-            size={{ xs: 4 }}
+            size={{ xs: 4, sm: 8, md: 12 }}
             sx={{
               height: "50vh",
               display: "flex",
@@ -50,6 +50,7 @@ export const FavoritesPage = () => {
             <Button
               variant="contained"
               startIcon={<ChevronLeftIcon />}
+              size="large"
               onClick={() => navigate("/")}
               sx={{ mt: 4 }}
             >

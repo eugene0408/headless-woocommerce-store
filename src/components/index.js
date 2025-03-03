@@ -11,6 +11,7 @@ import { CategoriesSideMenu } from "./CategoriesSideMenu.jsx";
 import { ScrollToTop } from "./ScrollToTop.jsx";
 import { CategoriesMenu } from "./CategoriesMenu.jsx";
 import { ProductsList } from "./ProductsList.jsx";
+import { Footer } from "./Footer.jsx";
 
 export {
   ProductCard,
@@ -26,4 +27,5 @@ export {
   ScrollToTop,
   ProductsList,
   PageWrapper,
+  Footer,
 };
