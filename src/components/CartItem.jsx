@@ -1,141 +1,144 @@
-import React from 'react';
-import { useDispatch } from 'react-redux';
-import { addAmount, reduceAmount, removeItem } from '../redux/slices/cartSlice';
-import { 
-  Card,
-  Box,
-  Typography,
-  CardMedia,
-  IconButton,
-} from '@mui/material';
+import React from "react";
+import { useDispatch } from "react-redux";
+import { addAmount, reduceAmount, removeItem } from "../redux/slices/cartSlice";
+import { Card, Box, Typography, CardMedia, IconButton } from "@mui/material";
+// MUI Icons
+import AddIcon from "@mui/icons-material/Add";
+import RemoveIcon from "@mui/icons-material/Remove";
+import DeleteIcon from "@mui/icons-material/Delete";
 
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
-import CloseIcon from '@mui/icons-material/Close';
-
-
-export const CartItem = ({product}) => {
-
+export const CartItem = ({ product }) => {
   const dispatch = useDispatch();
 
   return (
     <Card
       sx={{
-        width: '100%'
+        width: "100%",
+        border: "none",
+        boxShadow: "none",
       }}
     >
       <Box
         sx={{
-          display: 'flex',
-          flexDirection: 'row',
-          width: '100%'
+          display: "flex",
+          flexDirection: "row",
+          width: "100%",
+          height: 110,
+          position: "relative",
         }}
       >
-        <CardMedia 
-          component={'img'}
+        <CardMedia
+          component={"img"}
           image={product.image}
           alt={product.name}
           sx={{
-            width: '120px',
-            height: '120px'
+            width: "30%",
+            height: "100%",
+            objectFit: "cover",
           }}
         />
 
         <Box
-          component='div'
+          component="div"
           sx={{
-            display: 'flex',
-            flexDirection: 'column', 
+            display: "flex",
+            flexDirection: "column",
             p: 1,
-            width: '80%'
+            width: "70%",
           }}
         >
           <Typography
-            variant='h6'
+            variant="h6"
+            sx={{
+              overflow: "hidden",
+              textOverflow: "ellipsis",
+              whiteSpace: "nowrap",
+              width: "85%",
+            }}
           >
             {product.name}
           </Typography>
-          {/* ------------- Weight ---------- */}
+          {/* ------------- Size ---------- */}
           <Box
             sx={{
-              display: 'flex',
-              flexDirection: 'row',
-              alignItems: 'center',
-              justifyContent: 'space-between'
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+              justifyContent: "space-between",
+              opacity: 0.7,
             }}
           >
             <Typography>
               {product.weight}
-              <span style={{fontSize: '12px'}}>г</span>
+              <span style={{ fontSize: "12px" }}>г</span>
             </Typography>
           </Box>
           {/* --------------------------------- */}
 
           <Box
             sx={{
-              display: 'flex',
-              flexDirection: 'row',
-              justifyContent: 'space-between',
-              alignItems: 'center'
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-between",
+              alignItems: "center",
+              mt: 1,
             }}
           >
-          {/* ------------- Quantity counter ---------- */}
+            {/* ------------- Quantity counter ---------- */}
             <Box
               sx={{
-                display: 'flex',
-                flexDirection: 'row',
-                justifyContent: 'center',
-                alignItems: 'center'
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "center",
+                alignItems: "center",
               }}
             >
               <IconButton
-                onClick={() => dispatch(reduceAmount({id: product.id}))}
+                onClick={() => dispatch(reduceAmount({ id: product.id }))}
+                size="small"
               >
-                <KeyboardArrowDownIcon />
+                <RemoveIcon sx={{ height: ".8em" }} />
               </IconButton>
-                <Typography>
-                  {product.quantity}
-                </Typography>
+              <Typography>{product.quantity}</Typography>
               <IconButton
-                onClick={() => dispatch(addAmount({id: product.id}))}
+                onClick={() => dispatch(addAmount({ id: product.id }))}
+                size="small"
               >
-                <KeyboardArrowUpIcon />
+                <AddIcon sx={{ height: ".8em" }} />
               </IconButton>
-
             </Box>
             {/* ------------- Total Price ---------- */}
             <Box>
               <Typography
-                variant='h6'
+                variant="h6"
                 sx={{
-                  '&::after': {
+                  "&::after": {
                     content: '"₴"',
-                    fontSize: '0.8em',
-                    ml: 0.2
-                  }
+                    fontSize: "0.8em",
+                    ml: 0.2,
+                  },
                 }}
               >
                 {product.quantity * product.price}
               </Typography>
             </Box>
           </Box>
-
         </Box>
 
         {/* ------------- Delete Item ---------- */}
         <IconButton
-          onClick={() => dispatch(removeItem({id: product.id}))}
+          onClick={() => dispatch(removeItem({ id: product.id }))}
           sx={{
-            position: 'absolute',
-            top: 0,
-            right: 5
+            position: "absolute",
+            top: 2,
+            right: 7,
+            color: "error.main",
+            size: "small",
           }}
         >
-          <CloseIcon />
+          <DeleteIcon />
         </IconButton>
-
       </Box>
-
     </Card>
-  )
-}
+  );
+};
