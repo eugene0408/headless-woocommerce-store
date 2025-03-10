@@ -10,7 +10,6 @@ import { useTheme } from "@emotion/react";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import { light } from "@mui/material/styles/createPalette";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -22,10 +21,13 @@ export const Footer = () => {
     <Box
       component="footer"
       sx={{
+        display: "flex",
+        flexDirection: "column",
         mt: 4,
         pt: 8,
         pb: isMobile ? 12 : 0,
-        background: mode === "light" ? "#f4f4f4" : "#c4c4c4",
+        background:
+          mode === "light" ? "#f4f4f4" : theme.palette.background.paper,
       }}
     >
       <Box

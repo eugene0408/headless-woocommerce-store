@@ -8,6 +8,9 @@ export const PageWrapper = ({ children, sx = {} }) => {
     <Box
       sx={{
         paddingBottom: isMobile ? "56px" : 0,
+        display: "flex",
+        flexDirection: "column",
+        flexGrow: 1,
         ...sx,
       }}
     >

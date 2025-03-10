@@ -13,6 +13,7 @@ export const SectionWrapper = ({ children, justify = "flex-start" }) => {
         columns={{ xs: 4, sm: 8, md: 12 }}
         justifyContent={justify}
         alignItems="center"
+        sx={{ display: "flex", flexGrow: 1 }}
       >
         {children}
       </Grid>

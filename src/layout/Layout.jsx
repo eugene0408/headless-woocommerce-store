@@ -47,8 +47,20 @@ export const Layout = () => {
   };
 
   return (
-    <>
-      <Container>
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        minHeight: "100vh",
+      }}
+    >
+      <Container
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          flexGrow: 1,
+        }}
+      >
         {/* ------------- Topline ------------------*/}
         <AppBar>
           <Container>
@@ -321,6 +333,6 @@ export const Layout = () => {
         {/* ------------Footer---------------- */}
       </Container>
       <Footer sx={{ width: "100vw" }} />
-    </>
+    </Box>
   );
 };
