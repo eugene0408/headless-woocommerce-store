@@ -26,6 +26,7 @@ export const ProductsList = ({ products }) => {
   const paginatedProducts = products.slice(startIndex, endIndex);
 
   const sectionTopRef = useRef(null);
+  // Scroll to top of the section when page changes
   useEffect(() => {
     if (sectionTopRef.current) {
       sectionTopRef.current.scrollIntoView({
@@ -34,6 +35,10 @@ export const ProductsList = ({ products }) => {
       });
     }
   }, [page]);
+  // Reset page when products list change
+  useEffect(() => {
+    setPage(1);
+  }, [products]);
 
   return (
     <SectionWrapper>
