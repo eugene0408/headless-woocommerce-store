@@ -25,53 +25,52 @@ export const ProductsList = ({ products }) => {
 
   const paginatedProducts = products.slice(startIndex, endIndex);
 
-  const productsContainerRef = useRef(null);
+  const sectionTopRef = useRef(null);
   useEffect(() => {
-    if (productsContainerRef.current) {
-      productsContainerRef.current.scrollIntoView({
+    if (sectionTopRef.current) {
+      sectionTopRef.current.scrollIntoView({
         behavior: "smooth",
         block: "start",
       });
-      setTimeout(() => {
-        window.scrollBy({ top: -300, behavior: "smooth" });
-      }, 300);
     }
   }, [page]);
 
   return (
-    <div ref={productsContainerRef}>
-      <SectionWrapper>
-        {productsLoading && <LoadingCircular />}
+    <SectionWrapper>
+      <div
+        ref={sectionTopRef}
+        style={{ position: "absolute", top: "-120px" }}
+      />
+      {productsLoading && <LoadingCircular />}
 
-        {/* Display products list */}
-        {productsLoading === false &&
-          products.length > 0 &&
-          paginatedProducts.map((product) => (
-            <Grid
-              key={`pro${product.id}`}
-              size={{ xs: 4 }}
-              sx={{ display: "flex", justifyContent: "center" }}
-              item
-            >
-              <ProductCard product={product} />
-            </Grid>
-          ))}
+      {/* Display products list */}
+      {productsLoading === false &&
+        products.length > 0 &&
+        paginatedProducts.map((product) => (
+          <Grid
+            key={`pro${product.id}`}
+            size={{ xs: 4 }}
+            sx={{ display: "flex", justifyContent: "center" }}
+            item
+          >
+            <ProductCard product={product} />
+          </Grid>
+        ))}
 
-        {/* Display pagination */}
-        {products.length > productsPerPage && (
-          <Pagination
-            count={Math.ceil(products.length / productsPerPage)}
-            page={page}
-            onChange={(e, value) => setPage(value)}
-            sx={{
-              display: "flex",
-              justifyContent: "center",
-              width: "100%",
-              mt: 2,
-            }}
-          />
-        )}
-      </SectionWrapper>
-    </div>
+      {/* Display pagination */}
+      {products.length > productsPerPage && (
+        <Pagination
+          count={Math.ceil(products.length / productsPerPage)}
+          page={page}
+          onChange={(e, value) => setPage(value)}
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            width: "100%",
+            mt: 2,
+          }}
+        />
+      )}
+    </SectionWrapper>
   );
 };

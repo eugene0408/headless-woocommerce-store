@@ -5,7 +5,7 @@ import Grid from "@mui/material/Grid2";
 
 export const SectionWrapper = ({ children, justify = "flex-start" }) => {
   return (
-    <Container>
+    <Container sx={{ position: "relative" }}>
       <Grid
         container
         rowSpacing={1}
