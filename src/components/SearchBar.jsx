@@ -121,8 +121,11 @@ export const SearchBar = ({ mobileSearchOpen }) => {
               <ListItem
                 key={product.id}
                 button
-                onClick={() => handleSelect(product.id)}
-                onTouchStart={() => handleSelect(product.id)}
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  handleSelect(product.id);
+                }}
               >
                 <ListItemText primary={product.name} />
               </ListItem>
