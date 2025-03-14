@@ -12,6 +12,7 @@ import { ScrollToTop } from "./ScrollToTop.jsx";
 import { CategoriesMenu } from "./CategoriesMenu.jsx";
 import { ProductsList } from "./ProductsList.jsx";
 import { Footer } from "./Footer.jsx";
+import { SearchBar } from "./SearchBar.jsx";
 
 export {
   ProductCard,
@@ -28,4 +29,5 @@ export {
   ProductsList,
   PageWrapper,
   Footer,
+  SearchBar,
 };

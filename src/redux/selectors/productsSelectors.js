@@ -6,7 +6,10 @@ export const selectProductsLoading = (state) => state.products.loading;
 
 export const selectProductsByCategory = (slug) =>
   createSelector([selectAllProducts], (products) =>
-    products.filter((product) => product.categories[0].slug === slug)
+    // products.filter((product) => product.categories[0].slug === slug)
+    products.filter((product) =>
+      product.categories.some((category) => category.slug === slug)
+    )
   );
 
 export const selectProductById = (productId) =>
@@ -16,3 +19,17 @@ export const selectProductById = (productId) =>
       ? items.find((product) => product.id === productId)
       : null;
   });
+
+export const selectSearchQuery = (state) => state.products.searchQuery;
+
+export const selectFilteredProducts = createSelector(
+  [selectAllProducts, selectSearchQuery],
+  (products, searchQuery) => {
+    if (!searchQuery) {
+      return [];
+    }
+    return products.filter((product) =>
+      product.name.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+  }
+);

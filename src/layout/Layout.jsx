@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { openCart } from "../redux/slices/cartStatusSlice";
 import { selectCartItemsCount } from "../redux/selectors/cartSelectors";
 import { selectFavoritesItemsCount } from "../redux/selectors/favoritesSelectors";
+import { selectAllProducts } from "../redux/selectors/productsSelectors";
 // MUI
 import {
   Container,
@@ -19,7 +20,6 @@ import {
   Box,
   Badge,
   Button,
-  InputBase,
 } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 // MUI Icons
@@ -30,7 +30,13 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import SearchIcon from "@mui/icons-material/Search";
 // Components
 import Logo from "../assets/logo.svg?react";
-import { ThemeSwitch, Cart, CategoriesSideMenu, Footer } from "../components";
+import {
+  ThemeSwitch,
+  Cart,
+  CategoriesSideMenu,
+  SearchBar,
+  Footer,
+} from "../components";
 
 export const Layout = () => {
   const dispatch = useDispatch();
@@ -41,6 +47,9 @@ export const Layout = () => {
   const cartItemsCount = useSelector(selectCartItemsCount);
   const favoritesItemsCount = useSelector(selectFavoritesItemsCount);
   const [isCategoriesOpen, setIsCategoriesOpen] = useState(false);
+  const [isMobileSerchOpen, setIsMobileSerchOpen] = useState(false);
+
+  const products = useSelector(selectAllProducts);
 
   const closeCategoriesList = () => {
     setIsCategoriesOpen(false);
@@ -61,7 +70,7 @@ export const Layout = () => {
           flexGrow: 1,
         }}
       >
-        {/* ------------- Topline ------------------*/}
+        {/* ------------- Topline ------------------ */}
         <AppBar>
           <Container>
             <Toolbar
@@ -91,39 +100,7 @@ export const Layout = () => {
                     width: "100%",
                   }}
                 >
-                  <Box
-                    sx={{
-                      position: "relative",
-                      display: "flex",
-                      borderRadius: 2,
-                      background: "rgba(255,255,255, .15)",
-                      px: 2,
-                      py: 0.5,
-                      "&:hover": {
-                        background: "rgba(255,255,255, .25)",
-                      },
-                    }}
-                  >
-                    <Box
-                      sx={{
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        height: "100%",
-                        position: "absolute",
-                        top: 0,
-                        pointerEvents: "none",
-                      }}
-                    >
-                      <SearchIcon sx={{ height: "1em" }} />
-                    </Box>
-                    <InputBase
-                      placeholder="Пошук"
-                      sx={{
-                        pl: "1.7em",
-                      }}
-                    />
-                  </Box>
+                  <SearchBar />
                   <Button
                     startIcon={
                       <HomeIcon
@@ -171,6 +148,11 @@ export const Layout = () => {
                   </Button>
                 </Box>
               )}
+              {/* =======Mobile Search Bar======= */}
+              {isMobileSerchOpen && (
+                <SearchBar mobileSearchOpen={setIsMobileSerchOpen} />
+              )}
+              {/* ----------Theme Switcher------*/}
               <ThemeSwitch />
             </Toolbar>
           </Container>
@@ -215,7 +197,7 @@ export const Layout = () => {
         {/* ------------Cart Component---------------- */}
         <Cart />
 
-        {/* -------------Mobile Navigation------------- */}
+        {/* -------------Mobile Bottom Navigation------------- */}
         {isMobile && (
           <Paper
             sx={{
@@ -324,7 +306,7 @@ export const Layout = () => {
                 label="Пошук"
                 icon={<SearchIcon />}
                 sx={{ flex: 1 }}
-                onClick={() => navigate("/")}
+                onClick={() => setIsMobileSerchOpen(true)}
               />
             </BottomNavigation>
           </Paper>

@@ -5,6 +5,8 @@ import { useSelector, useDispatch } from "react-redux";
 import { selectAllProducts } from "../redux/selectors/productsSelectors.js";
 import { fetchProductsTrunk } from "../redux/slices/productsSlice.js";
 
+import { useResponsive } from "../hooks/useResponsive.js";
+
 // Components
 import {
   ProductDescription,
@@ -16,6 +18,7 @@ import {
 
 export const ProductPage = () => {
   const dispatch = useDispatch();
+  const { isMobile } = useResponsive();
   const { productId } = useParams();
   const numericProductId = Number(productId);
   const products = useSelector(selectAllProducts);
@@ -31,7 +34,7 @@ export const ProductPage = () => {
   );
 
   //return an array of same category random products
-  const getRelatedProducts = (allProducts, currentProduct, quantity = 4) => {
+  const getRelatedProducts = (allProducts, currentProduct, quantity) => {
     if (!allProducts || !currentProduct) return [];
 
     const categoryId = currentProduct.categories?.[0]?.id;
@@ -46,7 +49,13 @@ export const ProductPage = () => {
     return relatedProducts.sort(() => 0.5 - Math.random()).slice(0, quantity);
   };
 
-  const relatedProducts = getRelatedProducts(products, currentProduct);
+  const relatedQuantity = isMobile ? 4 : 6;
+
+  const relatedProducts = getRelatedProducts(
+    products,
+    currentProduct,
+    relatedQuantity
+  );
 
   return (
     <PageWrapper>

@@ -14,6 +14,12 @@ const productsSlice = createSlice({
     items: [],
     loading: false,
     error: null,
+    searchQuery: "",
+  },
+  reducers: {
+    setSearchQuery: (state, action) => {
+      state.searchQuery = action.payload;
+    },
   },
   extraReducers: (builder) => {
     builder
@@ -32,4 +38,5 @@ const productsSlice = createSlice({
   },
 });
 
+export const { setSearchQuery } = productsSlice.actions;
 export default productsSlice.reducer;

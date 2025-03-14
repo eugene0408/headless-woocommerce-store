@@ -18,6 +18,7 @@ export const ProductsList = ({ products }) => {
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
   const [page, setPage] = useState(1);
+  const [pageReseted, setPageReseted] = useState(true); // Fix for scroll to top on page change
   const productsPerPage = isMobile ? 6 : 12;
 
   const startIndex = (page - 1) * productsPerPage;
@@ -26,19 +27,26 @@ export const ProductsList = ({ products }) => {
   const paginatedProducts = products.slice(startIndex, endIndex);
 
   const sectionTopRef = useRef(null);
+
+  // Reset page when products list change
+  useEffect(() => {
+    setPage(1);
+    setPageReseted(true);
+  }, [products]);
   // Scroll to top of the section when page changes
   useEffect(() => {
-    if (sectionTopRef.current) {
+    if (sectionTopRef.current && !pageReseted) {
       sectionTopRef.current.scrollIntoView({
         behavior: "smooth",
         block: "start",
       });
     }
   }, [page]);
-  // Reset page when products list change
-  useEffect(() => {
-    setPage(1);
-  }, [products]);
+
+  const onChangeHandler = (e, value) => {
+    setPage(value);
+    setPageReseted(false);
+  };
 
   return (
     <SectionWrapper>
@@ -67,7 +75,7 @@ export const ProductsList = ({ products }) => {
         <Pagination
           count={Math.ceil(products.length / productsPerPage)}
           page={page}
-          onChange={(e, value) => setPage(value)}
+          onChange={(e, value) => onChangeHandler(e, value)}
           sx={{
             display: "flex",
             justifyContent: "center",
