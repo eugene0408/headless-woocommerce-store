@@ -43,7 +43,6 @@ export const SearchBar = ({ mobileSearchOpen }) => {
       setTimeout(() => {
         if (inputRef.current) {
           inputRef.current.focus();
-          console.log("focused");
         }
       }, 100);
     }
@@ -72,8 +71,11 @@ export const SearchBar = ({ mobileSearchOpen }) => {
           : "rgba(255,255,255, .15)",
         px: 2,
         py: 0.5,
-        "&:hover": {
-          background: "rgba(255,255,255, .25)",
+        "@media (hover: hover)": {
+          "&:hover": {
+            background: "rgba(255,255,255, .25)",
+            transition: "background .2s",
+          },
         },
         boxShadow: isMobileDevice ? 1 : "none",
       }}
@@ -94,6 +96,7 @@ export const SearchBar = ({ mobileSearchOpen }) => {
       <InputBase
         placeholder="Пошук"
         ref={inputRef}
+        autoFocus
         value={searchQuery}
         onChange={(e) => handleChange(e)}
         onFocus={() => setShowResults(searchQuery.length > 0)}
@@ -119,9 +122,7 @@ export const SearchBar = ({ mobileSearchOpen }) => {
                 key={product.id}
                 button
                 onClick={() => handleSelect(product.id)}
-                onMouseDown={(e) => e.preventDefault()}
-                onTouchStart={(e) => e.preventDefault()}
-                onTouchEnd={() => handleSelect(product.id)}
+                onTouchStart={() => handleSelect(product.id)}
               >
                 <ListItemText primary={product.name} />
               </ListItem>
