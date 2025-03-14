@@ -39,10 +39,15 @@ export const SearchBar = ({ mobileSearchOpen }) => {
 
   // Focus input on mobile
   useEffect(() => {
-    if (isMobileDevice && mobileSearchOpen) {
-      inputRef.current.focus();
+    if (mobileSearchOpen) {
+      setTimeout(() => {
+        if (inputRef.current) {
+          inputRef.current.focus();
+          console.log("focused");
+        }
+      }, 100);
     }
-  }, [isMobileDevice, mobileSearchOpen]);
+  }, [mobileSearchOpen]);
 
   const handleBlur = () => {
     if (isMobileDevice) {
@@ -114,6 +119,9 @@ export const SearchBar = ({ mobileSearchOpen }) => {
                 key={product.id}
                 button
                 onClick={() => handleSelect(product.id)}
+                onMouseDown={(e) => e.preventDefault()}
+                onTouchStart={(e) => e.preventDefault()}
+                onTouchEnd={() => handleSelect(product.id)}
               >
                 <ListItemText primary={product.name} />
               </ListItem>
