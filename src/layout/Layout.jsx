@@ -133,11 +133,24 @@ export const Layout = () => {
                   </Button>
                   <Button
                     startIcon={
-                      <FavoriteIcon
+                      <Badge
+                        badgeContent={favoritesItemsCount}
+                        color="error"
                         sx={{
-                          opacity: location.pathname === "/favorites" ? 1 : 0.5,
+                          "& .MuiBadge-badge": {
+                            fontSize: "0.55rem",
+                            height: "16px",
+                            minWidth: "16px",
+                          },
                         }}
-                      />
+                      >
+                        <FavoriteIcon
+                          sx={{
+                            opacity:
+                              location.pathname === "/favorites" ? 1 : 0.5,
+                          }}
+                        />
+                      </Badge>
                     }
                     onClick={() => navigate("/favorites")}
                     size="large"
