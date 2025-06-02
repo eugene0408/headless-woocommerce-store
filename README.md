@@ -18,7 +18,7 @@ The application connects to a **headless WordPress + WooCommerce** backend via R
 
 ---
 
-### 🧩 Tech Stack
+### Tech Stack
 
 - **React**
 - **Redux Toolkit**
