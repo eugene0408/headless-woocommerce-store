@@ -26,6 +26,5 @@ The application connects to a **headless WordPress + WooCommerce** backend via R
 - **Material UI (MUI)**
 - **React Router**
 - **Headless WooCommerce API**
-- **JavaScript**
 
 ---
