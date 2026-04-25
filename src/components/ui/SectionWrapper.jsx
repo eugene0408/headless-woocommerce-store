@@ -1,4 +1,3 @@
-import React from "react";
 // MUI
 import { Container } from "@mui/material";
 import Grid from "@mui/material/Grid2";

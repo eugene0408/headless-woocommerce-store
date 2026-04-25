@@ -5,17 +5,23 @@ import "./App.css";
 import { Routes, Route, useParams } from "react-router-dom";
 
 // Redux
-import { useSelector, useDispatch } from "react-redux";
-import { fetchProductsTrunk } from "./redux/slices/productsSlice";
-import { fetchCategoriesTrunk } from "./redux/slices/categoriesSlice";
+import { useDispatch } from "react-redux";
+import { fetchProductsTrunk } from "@/redux/slices/productsSlice";
+import { fetchCategoriesTrunk } from "@/redux/slices/categoriesSlice";
 
-import { Layout } from "./layout/Layout";
-import { IndexPage, FavoritesPage, CategoryPage, ProductPage } from "./pages";
-import { ScrollToTop } from "./components";
+import { Layout } from "@/layout/Layout";
+import {
+  IndexPage,
+  FavoritesPage,
+  CategoryPage,
+  ProductPage,
+  DeliveryPage,
+} from "@/pages";
+import { ScrollToTop } from "@/components/ui";
 
 function App() {
   const dispatch = useDispatch();
-  const { productId } = useParams();
+  // const { productId } = useParams();
 
   useEffect(() => {
     dispatch(fetchProductsTrunk());
@@ -33,6 +39,7 @@ function App() {
           <Route path={"products/:productId"} element={<ProductPage />} />
           <Route path="category/:categorySlug" element={<CategoryPage />} />
           <Route path="favorites" element={<FavoritesPage />} />
+          <Route path="delivery" element={<DeliveryPage />} />
         </Route>
       </Routes>
     </>

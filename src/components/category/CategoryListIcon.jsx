@@ -1,8 +1,8 @@
 import WidgetsIcon from "@mui/icons-material/Widgets";
 import HiveIcon from "@mui/icons-material/Hive";
-import BottleIcon from "../assets/bottle.svg?react";
-import HerbsIcon from "../assets/herbs.svg?react";
-import TeaIcon from "../assets/teapot.svg?react";
+import BottleIcon from "@/assets/bottle.svg?react";
+import HerbsIcon from "@/assets/herbs.svg?react";
+import TeaIcon from "@/assets/teapot.svg?react";
 import { useTheme } from "@emotion/react";
 
 export const CategoryListIcon = ({ categorySlug }) => {

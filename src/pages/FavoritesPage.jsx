@@ -3,25 +3,20 @@ import { Typography, Button } from "@mui/material";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 // Redux
 import { useSelector } from "react-redux";
-import { selectAllProducts } from "../redux/selectors/productsSelectors";
-import { selectFavorites } from "../redux/selectors/favoritesSelectors";
+import { selectAllProducts } from "@/redux/selectors/productsSelectors";
+import { selectFavorites } from "@/redux/selectors/favoritesSelectors";
 
 import { useNavigate } from "react-router-dom";
 
-import {
-  SectionHeader,
-  SectionWrapper,
-  ProductsList,
-  PageWrapper,
-  CategoriesMenu,
-} from "../components";
+import { SectionHeader, SectionWrapper, PageWrapper } from "@/components/ui";
+import { ProductsList } from "@/components/product";
 
 export const FavoritesPage = () => {
   const navigate = useNavigate();
   const products = useSelector(selectAllProducts);
   const favoritesList = useSelector(selectFavorites);
   const favoriteProducts = products.filter((product) =>
-    favoritesList.includes(product.id)
+    favoritesList.includes(product.id),
   );
 
   return (

@@ -3,10 +3,10 @@ import React, { useState } from "react";
 import { Outlet, useNavigate, useLocation } from "react-router-dom";
 // Redux
 import { useDispatch, useSelector } from "react-redux";
-import { openCart } from "../redux/slices/cartStatusSlice";
-import { selectCartItemsCount } from "../redux/selectors/cartSelectors";
-import { selectFavoritesItemsCount } from "../redux/selectors/favoritesSelectors";
-import { selectAllProducts } from "../redux/selectors/productsSelectors";
+import { openCart } from "@/redux/slices/cartStatusSlice";
+import { selectCartItemsCount } from "@/redux/selectors/cartSelectors";
+import { selectFavoritesItemsCount } from "@/redux/selectors/favoritesSelectors";
+import { selectAllProducts } from "@/redux/selectors/productsSelectors";
 // MUI
 import {
   Container,
@@ -29,14 +29,10 @@ import WidgetsIcon from "@mui/icons-material/Widgets";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import SearchIcon from "@mui/icons-material/Search";
 // Components
-import Logo from "../assets/logo.svg?react";
-import {
-  ThemeSwitch,
-  Cart,
-  CategoriesSideMenu,
-  SearchBar,
-  Footer,
-} from "../components";
+import Logo from "@/assets/logo.svg?react";
+import { Cart } from "@/components/cart";
+import { CategoriesSideMenu } from "@/components/category";
+import { SearchBar, Footer, ThemeSwitch } from "@/components/ui";
 
 export const Layout = () => {
   const dispatch = useDispatch();
@@ -49,7 +45,7 @@ export const Layout = () => {
   const [isCategoriesOpen, setIsCategoriesOpen] = useState(false);
   const [isMobileSerchOpen, setIsMobileSerchOpen] = useState(false);
 
-  const products = useSelector(selectAllProducts);
+  // const products = useSelector(selectAllProducts);
 
   const closeCategoriesList = () => {
     setIsCategoriesOpen(false);
@@ -71,11 +67,20 @@ export const Layout = () => {
         }}
       >
         {/* ------------- Topline ------------------ */}
-        <AppBar>
+        <AppBar
+          sx={{
+            background: theme.palette.background.topline,
+            color: theme.palette.text.topline,
+          }}
+        >
           <Container>
             <Toolbar
               position="static"
-              sx={{ display: "flex", justifyContent: "space-between" }}
+              sx={{
+                display: "flex",
+                justifyContent: "space-between",
+                height: 100,
+              }}
             >
               {/* -----------Logo----------- */}
               <IconButton
@@ -88,7 +93,7 @@ export const Layout = () => {
                 }}
               >
                 <Logo
-                  style={{ height: "32px", fill: theme.palette.text.primary }}
+                  style={{ height: "48px", fill: theme.palette.text.topline }}
                 />
               </IconButton>
               {!isMobile && (
@@ -98,6 +103,7 @@ export const Layout = () => {
                     alignItems: "center",
                     justifyContent: "center",
                     width: "100%",
+                    flexGrow: 1,
                   }}
                 >
                   <SearchBar />

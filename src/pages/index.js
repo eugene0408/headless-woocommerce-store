@@ -1,6 +1,5 @@
-import { IndexPage } from "./IndexPage";
-import { FavoritesPage } from "./FavoritesPage";
-import { CategoryPage } from "./CategoryPage";
-import { ProductPage } from "./ProductPage";
-
-export { IndexPage, FavoritesPage, CategoryPage, ProductPage };
+export { IndexPage } from "./IndexPage";
+export { FavoritesPage } from "./FavoritesPage";
+export { CategoryPage } from "./CategoryPage";
+export { ProductPage } from "./ProductPage";
+export { DeliveryPage } from "./DeliveryPage";

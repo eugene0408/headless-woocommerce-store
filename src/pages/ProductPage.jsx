@@ -2,19 +2,15 @@ import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 // Redux
 import { useSelector, useDispatch } from "react-redux";
-import { selectAllProducts } from "../redux/selectors/productsSelectors.js";
-import { fetchProductsTrunk } from "../redux/slices/productsSlice.js";
+import { selectAllProducts } from "@/redux/selectors/productsSelectors.js";
+import { fetchProductsTrunk } from "@/redux/slices/productsSlice.js";
 
-import { useResponsive } from "../hooks/useResponsive.js";
+import { useResponsive } from "@/hooks/useResponsive.js";
 
 // Components
-import {
-  ProductDescription,
-  CategoriesMenu,
-  SectionHeader,
-  ProductsList,
-  PageWrapper,
-} from "../components";
+import { ProductDescription, ProductsList } from "@/components/product";
+import { CategoriesMenu } from "@/components/category";
+import { SectionHeader, PageWrapper } from "@/components/ui";
 
 export const ProductPage = () => {
   const dispatch = useDispatch();
@@ -30,7 +26,7 @@ export const ProductPage = () => {
   }, [dispatch, products]);
 
   const currentProduct = products.find(
-    (product) => product.id === numericProductId
+    (product) => product.id === numericProductId,
   );
 
   //return an array of same category random products
@@ -43,7 +39,7 @@ export const ProductPage = () => {
     const relatedProducts = allProducts.filter(
       (product) =>
         product.id !== numericProductId &&
-        product.categories.some((category) => category.id === categoryId)
+        product.categories.some((category) => category.id === categoryId),
     );
 
     return relatedProducts.sort(() => 0.5 - Math.random()).slice(0, quantity);
@@ -54,7 +50,7 @@ export const ProductPage = () => {
   const relatedProducts = getRelatedProducts(
     products,
     currentProduct,
-    relatedQuantity
+    relatedQuantity,
   );
 
   return (

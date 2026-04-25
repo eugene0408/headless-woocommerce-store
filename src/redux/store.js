@@ -10,11 +10,11 @@ import {
   REGISTER,
 } from "redux-persist";
 import storage from "redux-persist/lib/storage"; //local storage
-import productsReducer from "./slices/productsSlice";
-import categoriesReducer from "./slices/categoriesSlice";
-import cartReducer from "./slices/cartSlice";
-import cartStatusReducer from "./slices/cartStatusSlice";
-import favoritesReducer from "./slices/favoritesSllice";
+import productsReducer from "@/redux/slices/productsSlice";
+import categoriesReducer from "@/redux/slices/categoriesSlice";
+import cartReducer from "@/redux/slices/cartSlice";
+import cartStatusReducer from "@/redux/slices/cartStatusSlice";
+import favoritesReducer from "@/redux/slices/favoritesSllice";
 
 const rootReducer = combineReducers({
   products: productsReducer,

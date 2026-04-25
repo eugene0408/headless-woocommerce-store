@@ -1,22 +1,21 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { selectProductsByCategory } from "../redux/selectors/productsSelectors";
-import { selectCategories } from "../redux/selectors/categoriesSelectors";
+import { selectProductsByCategory } from "@/redux/selectors/productsSelectors";
+import { selectCategories } from "@/redux/selectors/categoriesSelectors";
 import { useParams } from "react-router-dom";
 
-import { SectionHeader, ProductsList, PageWrapper } from "../components";
+import { SectionHeader, PageWrapper } from "@/components/ui";
+import { ProductsList } from "@/components/product";
 
 export const CategoryPage = () => {
   const { categorySlug } = useParams();
   const categories = useSelector(selectCategories);
   const category = categories.find(
-    (category) => category.slug === categorySlug
+    (category) => category.slug === categorySlug,
   );
 
-  console.log(categories);
-
   const productsByCategory = useSelector(
-    selectProductsByCategory(categorySlug)
+    selectProductsByCategory(categorySlug),
   );
 
   return (

@@ -1,16 +1,16 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useSelector } from "react-redux";
 // Selectors
-import { selectProductsLoading } from "../redux/selectors/productsSelectors";
+import { selectProductsLoading } from "@/redux/selectors/productsSelectors";
 // MUI
 import Grid from "@mui/material/Grid2";
 import { Pagination } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
 // Components
-import { SectionWrapper } from "./SectionWrapper";
+import { SectionWrapper } from "@/components/ui/SectionWrapper";
 import { ProductCard } from "./ProductCard";
-import { LoadingCircular } from "./LoadingCircular";
+import { LoadingCircular } from "@/components/ui/LoadingCircular";
 
 export const ProductsList = ({ products }) => {
   const productsLoading = useSelector(selectProductsLoading);
@@ -62,7 +62,7 @@ export const ProductsList = ({ products }) => {
         paginatedProducts.map((product) => (
           <Grid
             key={`pro${product.id}`}
-            size={{ xs: 4 }}
+            size={{ xs: 4, sm: 4, md: 4, lg: 3 }}
             sx={{ display: "flex", justifyContent: "center" }}
             item
           >

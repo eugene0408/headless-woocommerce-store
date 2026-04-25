@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // redux
 import { useSelector, useDispatch } from "react-redux";
-import { selectCart } from "../redux/selectors/cartSelectors";
-import { selectCartStatus } from "../redux/selectors/cartStatusSelectors";
-import { closeCart } from "../redux/slices/cartStatusSlice";
+import { selectCart } from "@/redux/selectors/cartSelectors";
+import { selectCartStatus } from "@/redux/selectors/cartStatusSelectors";
+import { closeCart } from "@/redux/slices/cartStatusSlice";
 
 // MUI
 import {
@@ -15,7 +16,6 @@ import {
   ListItemText,
   Typography,
   Box,
-  ListItemButton,
   Button,
 } from "@mui/material";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
@@ -87,7 +87,9 @@ export const Cart = () => {
                 {totalSum()}
               </Typography>
             </ListItem>
-            {/*  ------------- Action Buttons -----------------  */}
+            {/*  ------------------------- 
+                Action Buttons 
+              ----------------------------  */}
             <Box
               sx={{
                 display: "flex",
@@ -98,17 +100,19 @@ export const Cart = () => {
                 width: "100%",
               }}
             >
-              <Button
-                variant="contained"
-                size="large"
-                endIcon={<ChevronRightIcon />}
-                sx={{
-                  width: "80%",
-                }}
-              >
-                Оформити замовлення
-              </Button>
-
+              {/* Go to delivery page */}
+              <Link to={"/delivery"} style={{ width: "80%" }}>
+                <Button
+                  variant="contained"
+                  size="large"
+                  onClick={() => dispatch(closeCart())}
+                  endIcon={<ChevronRightIcon />}
+                  sx={{ width: "100%" }}
+                >
+                  Оформити замовлення
+                </Button>
+              </Link>
+              {/* Return to page */}
               <Button
                 variant="contained"
                 size="large"

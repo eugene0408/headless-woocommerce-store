@@ -1,18 +1,13 @@
-import React from "react";
 import { useSelector } from "react-redux";
 // Selectors
-import { selectAllProducts } from "../redux/selectors/productsSelectors";
-
-import {
-  SectionHeader,
-  CategoriesMenu,
-  ProductsList,
-  PageWrapper,
-} from "../components";
+import { selectAllProducts } from "@/redux/selectors/productsSelectors";
+// Components
+import { ProductsList } from "@/components/product";
+import { SectionHeader, PageWrapper } from "@/components/ui";
+import { CategoriesMenu } from "@/components/category";
 
 export const IndexPage = () => {
   const products = useSelector(selectAllProducts);
-  // console.log(products);
   return (
     <PageWrapper>
       <CategoriesMenu />

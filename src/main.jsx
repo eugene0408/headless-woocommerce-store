@@ -3,13 +3,13 @@ import { createRoot } from "react-dom/client";
 import { Provider } from "react-redux";
 
 import { PersistGate } from "redux-persist/integration/react";
-import { store, persistor } from "./redux/store.js";
+import { store, persistor } from "@/redux/store.js";
 
 import { BrowserRouter } from "react-router-dom";
 
-import { ThemeProvider, createTheme, CssBaseline } from "@mui/material";
+import { ThemeProvider, CssBaseline } from "@mui/material";
 
-import { LoadingCircular } from "./components";
+import { LoadingCircular } from "@/components/ui";
 
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
@@ -17,27 +17,9 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
 import "./index.css";
+import { theme } from "@/theme.js";
 
-import App from "./App.jsx";
-
-const theme = createTheme({
-  colorSchemes: {
-    dark: {
-      palette: {
-        primary: {
-          main: "#F57F17",
-        },
-        secondary: {
-          main: "#C2185B",
-        },
-        background: {
-          default: "#263238",
-          paper: "#37474F",
-        },
-      },
-    },
-  },
-});
+import App from "@/App.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -51,5 +33,5 @@ createRoot(document.getElementById("root")).render(
         </BrowserRouter>
       </PersistGate>
     </Provider>
-  </StrictMode>
+  </StrictMode>,
 );

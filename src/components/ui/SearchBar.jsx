@@ -1,9 +1,9 @@
 import { useState, useRef, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { setSearchQuery } from "../redux/slices/productsSlice";
+import { setSearchQuery } from "@/redux/slices/productsSlice";
 import { useNavigate } from "react-router-dom";
-import { selectFilteredProducts } from "../redux/selectors/productsSelectors";
-import { useResponsive } from "../hooks/useResponsive";
+import { selectFilteredProducts } from "@/redux/selectors/productsSelectors";
+import { useResponsive } from "@/hooks/useResponsive";
 
 import {
   Box,
@@ -65,19 +65,14 @@ export const SearchBar = ({ mobileSearchOpen }) => {
         right: isMobileDevice ? 0 : "unset",
         width: isMobileDevice ? "100%" : "unset",
         display: "flex",
-        borderRadius: 2,
+        borderRadius: 5,
         background: isMobileDevice
           ? (theme) => theme.palette.background.paper
-          : "rgba(255,255,255, .15)",
+          : (theme) => theme.palette.background.paper,
         px: 2,
-        py: 0.5,
-        "@media (hover: hover)": {
-          "&:hover": {
-            background: "rgba(255,255,255, .25)",
-            transition: "background .2s",
-          },
-        },
+        py: 0.6,
         boxShadow: isMobileDevice ? 1 : "none",
+        // flexGrow: 1,
       }}
     >
       <Box

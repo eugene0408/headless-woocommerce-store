@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { selectCategories } from "../redux/selectors/categoriesSelectors";
+import { selectCategories } from "@/redux/selectors/categoriesSelectors";
 import { Link } from "react-router-dom";
 import {
   List,

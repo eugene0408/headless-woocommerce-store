@@ -1,6 +1,9 @@
-import React from "react";
 import { useDispatch } from "react-redux";
-import { addAmount, reduceAmount, removeItem } from "../redux/slices/cartSlice";
+import {
+  addAmount,
+  reduceAmount,
+  removeItem,
+} from "../../redux/slices/cartSlice";
 import { Card, Box, Typography, CardMedia, IconButton } from "@mui/material";
 // MUI Icons
 import AddIcon from "@mui/icons-material/Add";
