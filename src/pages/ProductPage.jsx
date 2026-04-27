@@ -56,7 +56,7 @@ export const ProductPage = () => {
   return (
     <PageWrapper>
       <ProductDescription numericProductId={numericProductId} />
-      <SectionHeader title="Схожі товари" />
+      <SectionHeader title="Схожі товари" mt="1em" />
       <ProductsList products={relatedProducts} />
       <CategoriesMenu />
     </PageWrapper>

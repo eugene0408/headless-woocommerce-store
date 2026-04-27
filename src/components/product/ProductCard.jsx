@@ -14,9 +14,9 @@ export const ProductCard = ({ product }) => {
   return (
     <Card
       sx={{
-        maxWidth: 240,
-        height: 420,
-        // maxHeight: 460,
+        maxWidth: { xs: 320, md: 260 },
+        width: { xs: 320, md: 260 },
+        height: { xs: 480, md: 420 },
         my: 2,
         position: "relative",
         border: "none",
@@ -28,12 +28,13 @@ export const ProductCard = ({ product }) => {
         overflow: "visible",
       }}
     >
+      {/*********** Product Image ***********/}
       <CardMedia
         component="img"
         alt={product.name}
         image={product.images[0].src}
         sx={{
-          height: 260,
+          height: { xs: 320, md: 260 },
           borderRadius: "30px 0 0 0",
         }}
       />

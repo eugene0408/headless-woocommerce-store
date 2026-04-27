@@ -1,21 +1,14 @@
 // Redux
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import { selectProductById } from "@/redux/selectors/productsSelectors.js";
-import { selectCart } from "@/redux/selectors/cartSelectors.js";
-import { selectFavorites } from "@/redux/selectors/favoritesSelectors.js";
-import { toggleFavorites } from "@/redux/slices/favoritesSllice.js";
 // MUI
-import { Container, Typography, Box, Button, IconButton } from "@mui/material";
+import { Container, Typography, Box } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import { Favorite, FavoriteBorder } from "@mui/icons-material";
 
 import { AddToCartButton, FavoritesButton } from "@/components/ui";
 
 export const ProductDescription = ({ numericProductId }) => {
-  const dispatch = useDispatch();
   const product = useSelector(selectProductById(numericProductId));
-  const favoritesList = useSelector(selectFavorites);
-  const isFavorite = favoritesList.includes(numericProductId);
 
   return (
     <Container>
@@ -36,8 +29,8 @@ export const ProductDescription = ({ numericProductId }) => {
             {/*------------ Image ------------*/}
             <Box
               sx={{
-                mt: 5,
-                p: 1,
+                mt: { xs: 1, md: 4 },
+                p: { xs: 0, md: 1 },
                 width: "100%",
                 height: "450px",
               }}
@@ -67,8 +60,8 @@ export const ProductDescription = ({ numericProductId }) => {
                 alignItems: "flex-start",
                 flexGrow: 1,
                 p: 1,
-                ml: 4,
-                mt: 3,
+                ml: { xs: 0, md: 4 },
+                mt: { xs: 0, md: 3 },
               }}
             >
               <Typography variant="h4" sx={{ mt: 2 }}>
@@ -82,8 +75,10 @@ export const ProductDescription = ({ numericProductId }) => {
               <Box
                 sx={{
                   mt: 5,
+                  width: "100%",
                   display: "flex",
                   alignItems: "center",
+                  justifyContent: { xs: "center", md: "flex-start" },
                 }}
               >
                 {/*================  Action Button  ================*/}

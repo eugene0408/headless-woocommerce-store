@@ -18,12 +18,12 @@ export const CategoriesMenu = () => {
   const categoriesLoading = useSelector(selectCategoriesLoading);
 
   return (
-    <SectionWrapper justify="center">
+    <SectionWrapper justify="center" align="center">
       <SectionHeader title="Категорії" />
       {categoriesLoading && <LoadingCircular />}
       {categories.length > 0 &&
         categories.map((category) => (
-          <Grid key={category.id} size={{ xs: 2 }}>
+          <Grid key={category.id} size={{ xs: 2 }} item>
             <Link to={`/category/${category.slug}`}>
               <CategoryItem name={category.name} image={category.image.src} />
             </Link>

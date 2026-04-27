@@ -1,5 +1,5 @@
-import { useState, useMemo } from "react";
-import { TextField, Box, Button } from "@mui/material";
+import { useState } from "react";
+import { TextField, Box } from "@mui/material";
 
 export const ContactsFields = () => {
   const [form, setForm] = useState({
@@ -15,7 +15,7 @@ export const ContactsFields = () => {
         display: "flex",
         flexDirection: "column",
         gap: 2,
-        maxWidth: 400,
+        maxWidth: 600,
       }}
     >
       <TextField

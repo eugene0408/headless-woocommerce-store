@@ -24,6 +24,12 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 
 import { CartItem } from "./CartItem";
 
+const buttonStyles = {
+  borderRadius: 10,
+  px: 3.5,
+  py: 1.5,
+};
+
 export const Cart = () => {
   const dispatch = useDispatch();
   const cart = useSelector(selectCart);
@@ -101,13 +107,20 @@ export const Cart = () => {
               }}
             >
               {/* Go to delivery page */}
-              <Link to={"/delivery"} style={{ width: "80%" }}>
+              <Link
+                to={"/delivery"}
+                style={{
+                  width: "80%",
+                  display: "flex",
+                  justifyContent: "center",
+                }}
+              >
                 <Button
                   variant="contained"
                   size="large"
                   onClick={() => dispatch(closeCart())}
                   endIcon={<ChevronRightIcon />}
-                  sx={{ width: "100%" }}
+                  sx={{ ...buttonStyles, width: "100%" }}
                 >
                   Оформити замовлення
                 </Button>
@@ -120,8 +133,9 @@ export const Cart = () => {
                 onClick={() => dispatch(closeCart())}
                 startIcon={<ChevronLeftIcon />}
                 sx={{
-                  mt: 2,
+                  ...buttonStyles,
                   width: "80%",
+                  mt: 2,
                 }}
               >
                 Продовжити покупки
@@ -151,7 +165,9 @@ export const Cart = () => {
               onClick={() => dispatch(closeCart())}
               startIcon={<ChevronLeftIcon />}
               sx={{
+                ...buttonStyles,
                 mt: 2,
+                width: "80%",
               }}
             >
               Назад
