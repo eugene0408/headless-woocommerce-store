@@ -45,7 +45,7 @@ export const ProductPage = () => {
     return relatedProducts.sort(() => 0.5 - Math.random()).slice(0, quantity);
   };
 
-  const relatedQuantity = isMobile ? 4 : 6;
+  const relatedQuantity = isMobile ? 4 : 4;
 
   const relatedProducts = getRelatedProducts(
     products,

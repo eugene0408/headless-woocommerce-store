@@ -42,7 +42,7 @@ export const ProductDescription = ({ numericProductId }) => {
                   width: "100%",
                   height: "100%",
                   borderRadius: "75px 0 75px 0",
-                  objectFit: "cover",
+                  objectFit: "contain",
                 }}
               />
             </Box>

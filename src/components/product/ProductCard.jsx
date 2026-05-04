@@ -36,6 +36,7 @@ export const ProductCard = ({ product }) => {
         sx={{
           height: { xs: 320, md: 260 },
           borderRadius: "30px 0 0 0",
+          objectFit: "contain",
         }}
       />
       {/* ========= Favorite Button Wrapper =========  */}

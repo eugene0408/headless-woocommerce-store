@@ -37,7 +37,7 @@ export const CartItem = ({ product }) => {
           sx={{
             width: "30%",
             height: "100%",
-            objectFit: "cover",
+            objectFit: "contain",
           }}
         />
 

@@ -73,7 +73,7 @@
         "date_created_gmt": "2024-12-06T08:44:23",
         "date_modified": "2024-12-06T12:44:23",
         "date_modified_gmt": "2024-12-06T08:44:23",
-        "src": "/images/ivan-lavanda.jpg",
+        "src": "/images/ivan-chai.webp",
         "name": "ivan-lavanda",
         "alt": ""
       }
@@ -180,7 +180,7 @@
         "date_created_gmt": "2024-12-06T08:44:26",
         "date_modified": "2024-12-06T12:44:26",
         "date_modified_gmt": "2024-12-06T08:44:26",
-        "src": "/images/ivan-rose.jpg",
+        "src": "/images/ivan-chai.webp",
         "name": "ivan-rose",
         "alt": ""
       }
@@ -287,7 +287,7 @@
         "date_created_gmt": "2024-12-06T08:44:25",
         "date_modified": "2024-12-06T12:44:25",
         "date_modified_gmt": "2024-12-06T08:44:25",
-        "src": "/images/ivan-melisa.jpg",
+        "src": "/images/ivan-chai.webp",
         "name": "ivan-melisa",
         "alt": ""
       }
@@ -322,7 +322,7 @@
   },
   {
     "id": 171,
-    "name": "Календула",
+    "name": "Ромашка",
     "slug": "kalendula",
     "permalink": "http://localhost/test-shop-wp/product/kalendula/",
     "date_created": "2025-02-27T14:54:48",
@@ -333,7 +333,7 @@
     "status": "publish",
     "featured": false,
     "catalog_visibility": "visible",
-    "description": "<p>Чай з календули з протизапальними властивостями. Підтримує здоров'я шкіри, сприяє загальному оздоровленню організму.</p>\n",
+    "description": "<p>Чай з ромашки з протизапальними та заспокійливими властивостями. Підтримує здоров'я шкіри, сприяє загальному оздоровленню організму.</p>\n",
     "short_description": "",
     "sku": "0023",
     "price": "320",
@@ -394,7 +394,7 @@
         "date_created_gmt": "2024-12-06T08:44:56",
         "date_modified": "2024-12-06T12:44:56",
         "date_modified_gmt": "2024-12-06T08:44:56",
-        "src": "/images/calendula.jpg",
+        "src": "/images/romash.webp",
         "name": "calendula",
         "alt": ""
       }
@@ -501,7 +501,7 @@
         "date_created_gmt": "2024-12-06T08:44:53",
         "date_modified": "2024-12-06T12:44:53",
         "date_modified_gmt": "2024-12-06T08:44:53",
-        "src": "/images/zvirobiy.jpg",
+        "src": "/images/zvirob.webp",
         "name": "zvirobiy",
         "alt": ""
       }
@@ -608,7 +608,7 @@
         "date_created_gmt": "2024-12-06T08:44:35",
         "date_modified": "2024-12-06T12:44:35",
         "date_modified_gmt": "2024-12-06T08:44:35",
-        "src": "/images/shavliya.jpg",
+        "src": "/images/shavl.webp",
         "name": "shavliya",
         "alt": ""
       }
@@ -715,7 +715,7 @@
         "date_created_gmt": "2024-12-06T08:44:40",
         "date_modified": "2024-12-06T12:44:40",
         "date_modified_gmt": "2024-12-06T08:44:40",
-        "src": "/images/tincture2.jpg",
+        "src": "/images/tinctur.webp",
         "name": "tincture2",
         "alt": ""
       }
@@ -822,7 +822,7 @@
         "date_created_gmt": "2024-12-06T08:44:52",
         "date_modified": "2024-12-06T12:44:52",
         "date_modified_gmt": "2024-12-06T08:44:52",
-        "src": "/images/tincturepine.jpg",
+        "src": "/images/tinctur.webp",
         "name": "tincturepine",
         "alt": ""
       }
@@ -929,7 +929,7 @@
         "date_created_gmt": "2024-12-06T08:44:42",
         "date_modified": "2024-12-06T12:44:42",
         "date_modified_gmt": "2024-12-06T08:44:42",
-        "src": "/images/tincture3.jpg",
+        "src": "/images/tinctur.webp",
         "name": "tincture3",
         "alt": ""
       }
@@ -1036,7 +1036,7 @@
         "date_created_gmt": "2024-12-06T08:44:13",
         "date_modified": "2024-12-06T12:44:13",
         "date_modified_gmt": "2024-12-06T08:44:13",
-        "src": "/images/honey2.jpg",
+        "src": "/images/med.webp",
         "name": "honey2",
         "alt": ""
       }
@@ -1143,7 +1143,7 @@
         "date_created_gmt": "2024-12-06T08:44:17",
         "date_modified": "2024-12-06T12:44:17",
         "date_modified_gmt": "2024-12-06T08:44:17",
-        "src": "/images/honey4.jpg",
+        "src": "/images/med.webp",
         "name": "honey4",
         "alt": ""
       }
@@ -1250,7 +1250,7 @@
         "date_created_gmt": "2024-12-06T08:44:52",
         "date_modified": "2024-12-06T12:44:52",
         "date_modified_gmt": "2024-12-06T08:44:52",
-        "src": "/images/tincturepine.jpg",
+        "src": "/images/tinctur.webp",
         "name": "tincturepine",
         "alt": ""
       }
@@ -1367,7 +1367,7 @@
         "date_created_gmt": "2024-12-06T08:44:46",
         "date_modified": "2024-12-06T12:44:46",
         "date_modified_gmt": "2024-12-06T08:44:46",
-        "src": "/images/tincture6.jpg",
+        "src": "/images/tinctur.webp",
         "name": "tincture6",
         "alt": ""
       }
@@ -1484,7 +1484,7 @@
         "date_created_gmt": "2024-12-06T08:44:58",
         "date_modified": "2024-12-06T12:44:58",
         "date_modified_gmt": "2024-12-06T08:44:58",
-        "src": "/images/cebrec.jpeg",
+        "src": "/images/chebrec.webp",
         "name": "cebrec",
         "alt": ""
       }
@@ -1601,9 +1601,9 @@
         "date_created_gmt": "2024-12-06T08:44:30",
         "date_modified": "2024-12-06T12:44:30",
         "date_modified_gmt": "2024-12-06T08:44:30",
-        "src": "/images/melisa.jpeg",
-        "name": "melisa",
-        "alt": ""
+        "src": "/images/mint.webp",
+        "name": "mint",
+        "alt": "mint"
       }
     ],
     "attributes": [
@@ -1718,7 +1718,7 @@
         "date_created_gmt": "2024-12-06T08:44:15",
         "date_modified": "2024-12-06T12:44:15",
         "date_modified_gmt": "2024-12-06T08:44:15",
-        "src": "/images/honey3.jpg",
+        "src": "/images/med.webp",
         "name": "honey3",
         "alt": ""
       }
@@ -1835,7 +1835,7 @@
         "date_created_gmt": "2024-12-06T08:44:19",
         "date_modified": "2024-12-06T12:44:19",
         "date_modified_gmt": "2024-12-06T08:44:19",
-        "src": "/images/honey5.jpg",
+        "src": "/images/med.webp",
         "name": "honey5",
         "alt": ""
       }
@@ -1952,7 +1952,7 @@
         "date_created_gmt": "2024-12-06T08:44:23",
         "date_modified": "2024-12-06T12:44:23",
         "date_modified_gmt": "2024-12-06T08:44:23",
-        "src": "/images/ivan-lavanda.jpg",
+        "src": "/images/ivan-chai.webp",
         "name": "ivan-lavanda",
         "alt": ""
       }
@@ -2069,7 +2069,7 @@
         "date_created_gmt": "2024-12-06T08:44:22",
         "date_modified": "2024-12-06T12:44:22",
         "date_modified_gmt": "2024-12-06T08:44:22",
-        "src": "/images/ivan-chebrets.jpg",
+        "src": "/images/ivan-chai.webp",
         "name": "ivan-chebrets",
         "alt": ""
       }
@@ -2186,7 +2186,7 @@
         "date_created_gmt": "2024-12-06T08:44:45",
         "date_modified": "2024-12-06T12:44:45",
         "date_modified_gmt": "2024-12-06T08:44:45",
-        "src": "/images/tincture5.jpg",
+        "src": "/images/tinctur.webp",
         "name": "tincture5",
         "alt": ""
       }
@@ -2293,7 +2293,7 @@
         "date_created_gmt": "2024-12-06T08:44:29",
         "date_modified": "2024-12-06T12:44:29",
         "date_modified_gmt": "2024-12-06T08:44:29",
-        "src": "/images/lustya-lupy.jpg",
+        "src": "/images/lipa.webp",
         "name": "lustya-lupy",
         "alt": ""
       }
@@ -2400,7 +2400,7 @@
         "date_created_gmt": "2024-12-06T08:44:17",
         "date_modified": "2024-12-06T12:44:17",
         "date_modified_gmt": "2024-12-06T08:44:17",
-        "src": "/images/honey4.jpg",
+        "src": "/images/med.webp",
         "name": "honey4",
         "alt": ""
       }
@@ -2517,7 +2517,7 @@
         "date_created_gmt": "2024-12-06T08:44:19",
         "date_modified": "2024-12-06T12:44:19",
         "date_modified_gmt": "2024-12-06T08:44:19",
-        "src": "/images/honey5.jpg",
+        "src": "/images/med.webp",
         "name": "honey5",
         "alt": ""
       }
@@ -2634,7 +2634,7 @@
         "date_created_gmt": "2024-12-06T08:44:20",
         "date_modified": "2024-12-06T12:44:20",
         "date_modified_gmt": "2024-12-06T08:44:20",
-        "src": "/images/honey6.jpg",
+        "src": "/images/med.webp",
         "name": "honey6",
         "alt": ""
       }
@@ -2751,7 +2751,7 @@
         "date_created_gmt": "2024-12-06T08:44:26",
         "date_modified": "2024-12-06T12:44:26",
         "date_modified_gmt": "2024-12-06T08:44:26",
-        "src": "/images/ivan-rose.jpg",
+        "src": "/images/ivan-chai.webp",
         "name": "ivan-rose",
         "alt": ""
       }
@@ -2868,7 +2868,7 @@
         "date_created_gmt": "2024-12-06T08:44:25",
         "date_modified": "2024-12-06T12:44:25",
         "date_modified_gmt": "2024-12-06T08:44:25",
-        "src": "/images/ivan-melisa.jpg",
+        "src": "/images/ivan-chai.webp",
         "name": "ivan-melisa",
         "alt": ""
       }
